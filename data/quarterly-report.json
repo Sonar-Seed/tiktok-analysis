@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T14:31:46.320Z",
+  "generated_at": "2026-04-02T14:41:36.153Z",
   "time_series": [
     {
       "quarter_id": "2026-Q1",
@@ -28,7 +28,10 @@
         "avg_svr": 0.9591168331008054,
         "avg_viral_velocity": 1.0965470883770907,
         "avg_rer": 5.6514464232451855,
-        "conversion_intent_score_index": 8
+        "utility_vs_viral_score": 0.9464083538958574,
+        "follower_to_view_alpha": 5.6514464232451855,
+        "conversion_intent_score_index": 8,
+        "comment_intent_density": 0
       },
       "battle_comparisons": {
         "voiceover": {
@@ -36,6 +39,8 @@
           "without_voiceover_avg_views": 128800
         },
         "face_presence": {
+          "with_face_avg_views": 133913.8,
+          "without_face_avg_views": null,
           "with_face_svr": 0.9712526997209665,
           "without_face_svr": null
         },
@@ -56,9 +61,15 @@
         }
       },
       "deep_analysis": {
+        "incentive_throttle_ratio": null,
         "incentive_type_rer_impact": {
           "Gifted-Disclosed": 0.16965030189007446,
           "Organic": 16.673580449343977
+        },
+        "product_reveal_efficiency": {
+          "hook_reveal_avg_views": 69200,
+          "mid_reveal_avg_views": 188284.5,
+          "end_reveal_avg_views": null
         },
         "time_to_product_impact": {
           "mid": 188284.5,
@@ -70,6 +81,8 @@
           "Other": 883
         },
         "honest_review_premium": {
+          "critical_balanced_avg_views": 69200,
+          "raving_positive_avg_views": 150092.25,
           "critical_balanced_avg_shares": 107,
           "raving_positive_avg_shares": 1966.25
         },
@@ -77,6 +90,12 @@
           "with_pain_point_avg_comments": 68.66666666666667,
           "without_pain_point_avg_comments": 126
         }
+      },
+      "seo_discoverability": {
+        "avg_seo_saturation": 0.16666666666666666,
+        "keyword_association_strength": [
+          "katherine"
+        ]
       },
       "key_phrases": [
         "PR haul",
@@ -148,7 +167,8 @@
             "hook": "Talking-Head",
             "save_rate": 9.040891665766742
           }
-        ]
+        ],
+        "incentive_throttle_ratio": null
       },
       "duration_correlation": {
         "pearson_r": null,
@@ -167,7 +187,10 @@
         "avg_svr": 1.2389263850181498,
         "avg_viral_velocity": 0.19724339303340685,
         "avg_rer": 1.5250937787449017,
-        "conversion_intent_score_index": 20
+        "utility_vs_viral_score": 0.2549984007758804,
+        "follower_to_view_alpha": 1.5250937787449017,
+        "conversion_intent_score_index": 20,
+        "comment_intent_density": 0
       },
       "battle_comparisons": {
         "voiceover": {
@@ -175,6 +198,8 @@
           "without_voiceover_avg_views": 272400
         },
         "face_presence": {
+          "with_face_avg_views": 161600,
+          "without_face_avg_views": 272400,
           "with_face_svr": 1.3556362735624667,
           "without_face_svr": 1.0055066079295154
         },
@@ -195,9 +220,15 @@
         }
       },
       "deep_analysis": {
+        "incentive_throttle_ratio": null,
         "incentive_type_rer_impact": {
           "Organic": 2.1135609135161255,
           "Gifted-Disclosed": 0.348159509202454
+        },
+        "product_reveal_efficiency": {
+          "hook_reveal_avg_views": 198533.33333333334,
+          "mid_reveal_avg_views": null,
+          "end_reveal_avg_views": null
         },
         "time_to_product_impact": {
           "hook": 198533.33333333334
@@ -207,6 +238,8 @@
           "Other": 695
         },
         "honest_review_premium": {
+          "critical_balanced_avg_views": 126300,
+          "raving_positive_avg_views": 234650,
           "critical_balanced_avg_shares": 312,
           "raving_positive_avg_shares": 450.5
         },
@@ -214,6 +247,13 @@
           "with_pain_point_avg_comments": 41.5,
           "without_pain_point_avg_comments": 190
         }
+      },
+      "seo_discoverability": {
+        "avg_seo_saturation": 0,
+        "keyword_association_strength": [
+          "kiko lip gloss",
+          "Geschenke Ideen"
+        ]
       },
       "key_phrases": [
         "least satiating food",
@@ -265,7 +305,8 @@
             "hook": "ASMR-Unboxing",
             "save_rate": 10.055066079295154
           }
-        ]
+        ],
+        "incentive_throttle_ratio": null
       },
       "duration_correlation": {
         "pearson_r": null,
