@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T14:22:03.145Z",
+  "generated_at": "2026-04-02T14:27:58.235Z",
   "time_series": [
     {
       "quarter_id": "2026-Q1",
@@ -22,6 +22,71 @@
         "videos_enrichment_failed": 1,
         "videos_excluded": 0
       },
+      "efficiency_metrics": {
+        "avg_svr": 0.9591168331008054,
+        "avg_viral_velocity": 1.0965470883770907,
+        "avg_rer": 5.6514464232451855,
+        "conversion_intent_score_index": 8
+      },
+      "battle_comparisons": {
+        "voiceover": {
+          "with_voiceover_avg_views": 135192.25,
+          "without_voiceover_avg_views": 128800
+        },
+        "face_presence": {
+          "with_face_svr": 0.9712526997209665,
+          "without_face_svr": 0
+        },
+        "length_sweet_spot": {
+          "0-10": 65684.5,
+          "11-20": 95000,
+          "21-30": 0,
+          "31-60": 69200,
+          "60+": 193400
+        },
+        "audio_originality": {
+          "original_avg_performance": 115060.5,
+          "trending_music_avg_performance": 0
+        }
+      },
+      "deep_analysis": {
+        "time_to_product_impact": {
+          "mid": 188284.5,
+          "hook": 69200,
+          "none": 111900
+        },
+        "aesthetic_roi": {
+          "Clean-Girl": 1114,
+          "Other": 883
+        },
+        "honest_review_premium": {
+          "critical_balanced_avg_shares": 107,
+          "raving_positive_avg_shares": 1966.25
+        },
+        "pain_point_conversion": {
+          "with_pain_point_avg_comments": 68.66666666666667,
+          "without_pain_point_avg_comments": 126
+        }
+      },
+      "key_phrases": [
+        "PR haul",
+        "massive box of goodies",
+        "moving across the country",
+        "giveaway at the end",
+        "PR haul",
+        "beyond grateful",
+        "I literally swear by this stuff",
+        "I am obsessed",
+        "non-toxic or greenwashed",
+        "not approved",
+        "ingredient lists are louder",
+        "synthetic fragrance",
+        "brand new Jag",
+        "gold-faced Rolex",
+        "showroom floor",
+        "Yokohama 20 inches",
+        "picture of his biceps"
+      ],
       "by_creator_tier": {
         "Nano": {
           "count": 1,
@@ -86,6 +151,61 @@
         "videos_enrichment_failed": 0,
         "videos_excluded": 3
       },
+      "efficiency_metrics": {
+        "avg_svr": 1.2389263850181498,
+        "avg_viral_velocity": 0.19724339303340685,
+        "avg_rer": 1.5250937787449017,
+        "conversion_intent_score_index": 20
+      },
+      "battle_comparisons": {
+        "voiceover": {
+          "with_voiceover_avg_views": 161600,
+          "without_voiceover_avg_views": 272400
+        },
+        "face_presence": {
+          "with_face_svr": 1.3556362735624667,
+          "without_face_svr": 1.0055066079295154
+        },
+        "length_sweet_spot": {
+          "0-10": 0,
+          "11-20": 0,
+          "21-30": 0,
+          "31-60": 272400,
+          "60+": 161600
+        },
+        "audio_originality": {
+          "original_avg_performance": 161805.5,
+          "trending_music_avg_performance": 273202
+        }
+      },
+      "deep_analysis": {
+        "time_to_product_impact": {
+          "hook": 198533.33333333334
+        },
+        "aesthetic_roi": {
+          "Clean-Girl": 3497,
+          "Other": 695
+        },
+        "honest_review_premium": {
+          "critical_balanced_avg_shares": 312,
+          "raving_positive_avg_shares": 450.5
+        },
+        "pain_point_conversion": {
+          "with_pain_point_avg_comments": 41.5,
+          "without_pain_point_avg_comments": 190
+        }
+      },
+      "key_phrases": [
+        "least satiating food",
+        "Desserts by Clement",
+        "Dubai Chocolate Croissant",
+        "fill me up",
+        "Geschenkideen",
+        "Makeup Edition",
+        "meine Empfehlung",
+        "verschmiert nicht",
+        "hält die ganze Nacht"
+      ],
       "by_creator_tier": {
         "Micro": {
           "count": 1,
