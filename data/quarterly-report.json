@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-04-02T22:40:58.421Z",
+  "generated_at": "2026-04-02T22:47:12.983Z",
   "time_series": [
     {
       "quarter_id": "2026-Q1",
       "avg_share_rate": 3.76832761310305,
       "avg_save_rate": 10.370085423976414,
-      "avg_rer": 0.9344577383071166,
+      "avg_rer": 0.19832011199253383,
       "viral_velocity_growth_vs_prior_quarter": null
     },
     {
       "quarter_id": "2025-Q4",
       "avg_share_rate": 1.9506255640113845,
       "avg_save_rate": 10.214284108869949,
-      "avg_rer": 72.77213344546222,
+      "avg_rer": 11,
       "viral_velocity_growth_vs_prior_quarter": -48.23630628003887
     },
     {
       "quarter_id": "2025-Q3",
       "avg_share_rate": 2.3689204019264345,
       "avg_save_rate": 8.32613540445808,
-      "avg_rer": 18.298833769527675,
+      "avg_rer": 1.6617665857088073,
       "viral_velocity_growth_vs_prior_quarter": 21.44413800539162
     },
     {
       "quarter_id": "2025-Q2",
       "avg_share_rate": 4.785360786963638,
       "avg_save_rate": 11.298502805084352,
-      "avg_rer": 5.5382119801728615,
+      "avg_rer": 1.3,
       "viral_velocity_growth_vs_prior_quarter": 102.00597635412845
     }
   ],
@@ -41,9 +41,9 @@
       "efficiency_metrics": {
         "avg_svr": 1.0370085423976414,
         "avg_viral_velocity": 0.3768327613103051,
-        "avg_rer": 0.9344577383071166,
+        "avg_rer": 0.19832011199253383,
         "utility_vs_viral_score": 0.40366801577983363,
-        "follower_to_view_alpha": 0.9344577383071166,
+        "follower_to_view_alpha": 0.19832011199253383,
         "conversion_intent_score_index": 93.33333333333333,
         "comment_intent_density": 1.0504495900977031,
         "hook_to_rer_impact": [
@@ -53,11 +53,11 @@
           },
           {
             "hook": "Talking-Head",
-            "avg_rer": 0.6862491035162931
+            "avg_rer": 0.25570526517305503
           },
           {
             "hook": "ASMR-Unboxing",
-            "avg_rer": 0.44312548948307073
+            "avg_rer": 0.18150154798761609
           },
           {
             "hook": "Other",
@@ -95,7 +95,7 @@
       "deep_analysis": {
         "incentive_throttle_ratio": null,
         "incentive_type_rer_impact": {
-          "Gifted-Disclosed": 1.0006810956132035,
+          "Gifted-Disclosed": 0.25570526517305503,
           "Gifted-Undisclosed": 0.007330736021901653
         },
         "product_reveal_efficiency": {
@@ -122,7 +122,7 @@
           "without_pain_point_avg_comments": 268.57142857142856
         },
         "niche_performance": {
-          "Beauty": 0.9344577383071166
+          "Beauty": 0.19832011199253383
         }
       },
       "seo_discoverability": {
@@ -195,19 +195,19 @@
       "by_creator_tier": {
         "Nano": {
           "count": 3,
-          "avg_rer": 0.3153609381112245,
+          "avg_rer": 0.19832011199253383,
           "avg_viral_velocity": 6.188499986949599,
           "avg_save_rate": 16.769035544685337
         },
         "Micro": {
           "count": 3,
-          "avg_rer": 1.4067875929307194,
+          "avg_rer": 0.31309041835357626,
           "avg_viral_velocity": 3.090127656159512,
           "avg_save_rate": 16.237929401548836
         },
         "Macro": {
           "count": 8,
-          "avg_rer": 1.105209378366933,
+          "avg_rer": 0.26817986270835237,
           "avg_viral_velocity": 3.4951725674459633,
           "avg_save_rate": 6.585529084348732
         },
@@ -239,7 +239,7 @@
         }
       },
       "calculated_insights": {
-        "nano_premium_percentage": -71.46595529462438,
+        "nano_premium_percentage": -26.049588515074877,
         "hook_efficiency_leaderboard": [
           {
             "hook": "ASMR-Unboxing",
@@ -276,27 +276,27 @@
       "efficiency_metrics": {
         "avg_svr": 1.0214284108869944,
         "avg_viral_velocity": 0.19506255640113843,
-        "avg_rer": 72.77213344546222,
+        "avg_rer": 11,
         "utility_vs_viral_score": 0.3208233023607056,
-        "follower_to_view_alpha": 72.77213344546222,
+        "follower_to_view_alpha": 11,
         "conversion_intent_score_index": 91.15384615384616,
         "comment_intent_density": 0.19050238837368683,
         "hook_to_rer_impact": [
           {
             "hook": "Problem-Solution",
-            "avg_rer": 276.60431317831564
+            "avg_rer": 225.64102564102564
           },
           {
             "hook": "Other",
-            "avg_rer": 19.72688909431786
-          },
-          {
-            "hook": "ASMR-Unboxing",
-            "avg_rer": 11.740489524392643
+            "avg_rer": 12.99157894736842
           },
           {
             "hook": "Talking-Head",
             "avg_rer": 9.964968152866241
+          },
+          {
+            "hook": "ASMR-Unboxing",
+            "avg_rer": 2.515679442508711
           },
           {
             "hook": "POV",
@@ -332,12 +332,12 @@
         }
       },
       "deep_analysis": {
-        "incentive_throttle_ratio": 0.9950244669383879,
+        "incentive_throttle_ratio": 0.1936392375938483,
         "incentive_type_rer_impact": {
-          "Gifted-Disclosed": 10.26296597922044,
+          "Gifted-Disclosed": 2.515679442508711,
           "Paid-Partnership": 11,
           "Organic": 16.69201670075938,
-          "Affiliate-Code": 276.60431317831564
+          "Affiliate-Code": 225.64102564102564
         },
         "product_reveal_efficiency": {
           "hook_reveal_avg_views": 614057.1428571428,
@@ -370,8 +370,8 @@
           "Wellness": 398.6106071601355,
           "Tech": 44.44444444444444,
           "Other": 32.59172521467603,
-          "Fashion": 9.99035219874891,
-          "Beauty": 3.946079206374645
+          "Fashion": 6.372321945570354,
+          "Beauty": 2.515679442508711
         }
       },
       "seo_discoverability": {
@@ -428,13 +428,13 @@
       "by_creator_tier": {
         "Nano": {
           "count": 5,
-          "avg_rer": 172.5895927494398,
+          "avg_rer": 32.59172521467603,
           "avg_viral_velocity": 2.007340644437668,
           "avg_save_rate": 7.172896270288851
         },
         "Micro": {
           "count": 7,
-          "avg_rer": 11.620732450381297,
+          "avg_rer": 8.929936305732484,
           "avg_viral_velocity": 1.8502425635725401,
           "avg_save_rate": 10.079826084511184
         },
@@ -478,7 +478,7 @@
         }
       },
       "calculated_insights": {
-        "nano_premium_percentage": 9792.539883115915,
+        "nano_premium_percentage": 1768.1018734067543,
         "hook_efficiency_leaderboard": [
           {
             "hook": "Other",
@@ -519,23 +519,23 @@
       "efficiency_metrics": {
         "avg_svr": 0.832613540445808,
         "avg_viral_velocity": 0.2368920401926434,
-        "avg_rer": 18.298833769527675,
+        "avg_rer": 1.6617665857088073,
         "utility_vs_viral_score": 0.3747315914181236,
-        "follower_to_view_alpha": 18.298833769527675,
+        "follower_to_view_alpha": 1.6617665857088073,
         "conversion_intent_score_index": 82.94117647058823,
         "comment_intent_density": 0.20977140416233234,
         "hook_to_rer_impact": [
           {
             "hook": "POV",
-            "avg_rer": 30.60439199074313
+            "avg_rer": 13.566666666666666
           },
           {
             "hook": "ASMR-Unboxing",
-            "avg_rer": 25.60033050648083
+            "avg_rer": 5.093045455016565
           },
           {
             "hook": "Talking-Head",
-            "avg_rer": 0.7427051815616368
+            "avg_rer": 0.5703274860209409
           }
         ]
       },
@@ -569,8 +569,8 @@
       "deep_analysis": {
         "incentive_throttle_ratio": null,
         "incentive_type_rer_impact": {
-          "Gifted-Disclosed": 11.075339066134934,
-          "Organic": 7.180508199275744,
+          "Gifted-Disclosed": 1.5103018254111693,
+          "Organic": 8.524324324324324,
           "Gifted-Undisclosed": 122,
           "Unknown": 42.42424242424242
         },
@@ -601,8 +601,8 @@
           "without_pain_point_avg_comments": 257
         },
         "niche_performance": {
-          "Fashion": 31.31665030813477,
-          "Beauty": 13.925239371417433,
+          "Fashion": 12.340380549682875,
+          "Beauty": 1.5454545454545454,
           "Home": 1.319289455704851
         }
       },
@@ -666,19 +666,19 @@
       "by_creator_tier": {
         "Nano": {
           "count": 6,
-          "avg_rer": 40.02658929971341,
+          "avg_rer": 12.95352360817477,
           "avg_viral_velocity": 2.2966595588808953,
           "avg_save_rate": 6.474952496830315
         },
         "Micro": {
           "count": 4,
-          "avg_rer": 11.58326676020804,
+          "avg_rer": 1.878472308294869,
           "avg_viral_velocity": 3.74468722475265,
           "avg_save_rate": 14.107234200457123
         },
         "Macro": {
           "count": 5,
-          "avg_rer": 4.598823339480663,
+          "avg_rer": 0.9658246656760773,
           "avg_viral_velocity": 2.032759239085334,
           "avg_save_rate": 7.563301141590051
         },
@@ -716,7 +716,7 @@
         }
       },
       "calculated_insights": {
-        "nano_premium_percentage": 770.3658815525092,
+        "nano_premium_percentage": 1241.187905892557,
         "hook_efficiency_leaderboard": [
           {
             "hook": "POV",
@@ -749,23 +749,23 @@
       "efficiency_metrics": {
         "avg_svr": 1.1298502805084352,
         "avg_viral_velocity": 0.4785360786963638,
-        "avg_rer": 5.5382119801728615,
+        "avg_rer": 1.3,
         "utility_vs_viral_score": 0.448251061864062,
-        "follower_to_view_alpha": 5.5382119801728615,
+        "follower_to_view_alpha": 1.3,
         "conversion_intent_score_index": 93.07692307692308,
         "comment_intent_density": 0.2512324916822366,
         "hook_to_rer_impact": [
-          {
-            "hook": "Talking-Head",
-            "avg_rer": 8.171913240410058
-          },
           {
             "hook": "POV",
             "avg_rer": 4.568378060148163
           },
           {
+            "hook": "Talking-Head",
+            "avg_rer": 2.25990099009901
+          },
+          {
             "hook": "ASMR-Unboxing",
-            "avg_rer": 1.4141517347701191
+            "avg_rer": 0.21825117411654243
           }
         ]
       },
@@ -799,7 +799,7 @@
       "deep_analysis": {
         "incentive_throttle_ratio": null,
         "incentive_type_rer_impact": {
-          "Gifted-Disclosed": 5.5382119801728615
+          "Gifted-Disclosed": 1.3
         },
         "product_reveal_efficiency": {
           "hook_reveal_avg_views": 426908.4285714286,
@@ -827,7 +827,7 @@
           "without_pain_point_avg_comments": 347.6666666666667
         },
         "niche_performance": {
-          "Beauty": 5.9703722711696985,
+          "Beauty": 1.7799504950495049,
           "Fashion": 0.3522884882108183
         }
       },
@@ -893,13 +893,13 @@
         },
         "Micro": {
           "count": 6,
-          "avg_rer": 2.7981614101143446,
+          "avg_rer": 1.4414478212527135,
           "avg_viral_velocity": 4.737787015779538,
           "avg_save_rate": 12.551623435803931
         },
         "Macro": {
           "count": 4,
-          "avg_rer": 1.9757393012738864,
+          "avg_rer": 1.6233848622069547,
           "avg_viral_velocity": 6.833619624645392,
           "avg_save_rate": 11.883902213913501
         },
@@ -937,7 +937,7 @@
         }
       },
       "calculated_insights": {
-        "nano_premium_percentage": 2194.1843984433076,
+        "nano_premium_percentage": 2692.1353622897013,
         "hook_efficiency_leaderboard": [
           {
             "hook": "POV",
