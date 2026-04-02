@@ -1,68 +1,135 @@
 {
-  "generated_at": "2026-04-02T14:17:59.075Z",
-  "quarter_id": "2025-Q4",
-  "summary": {
-    "total": 6,
-    "videos_enriched": 3,
-    "videos_enrichment_failed": 0,
-    "videos_excluded": 3
-  },
-  "by_creator_tier": {
-    "Micro": {
-      "count": 1,
-      "avg_rer": 3.213740458015267,
-      "avg_viral_velocity": 2.470308788598575,
-      "avg_save_rate": 5.5027711797308
-    },
-    "Macro": {
-      "count": 2,
-      "avg_rer": 0.6807704391097189,
-      "avg_viral_velocity": 1.7234965012018146,
-      "avg_save_rate": 15.832510185406846
-    }
-  },
-  "by_relationship_tag": {
-    "Unclassified": {
-      "count": 2,
-      "avg_viral_velocity": 1.4865510423439803,
-      "avg_save_rate": 13.556362735624669,
-      "avg_purchase_intent": 1
-    },
-    "Organic_Gifting": {
-      "count": 1,
-      "avg_viral_velocity": 2.9441997063142438,
-      "avg_save_rate": 10.055066079295154,
-      "avg_purchase_intent": 0
-    }
-  },
-  "by_hook_type": {
-    "Talking-Head": {
-      "count": 2,
-      "avg_play_count": 161600,
-      "avg_save_rate": 13.556362735624669
-    },
-    "ASMR-Unboxing": {
-      "count": 1,
-      "avg_play_count": 272400,
-      "avg_save_rate": 10.055066079295154
-    }
-  },
+  "generated_at": "2026-04-02T14:22:03.145Z",
   "time_series": [
-    {
-      "quarter_id": "2025-Q4",
-      "avg_share_rate": 1.972433930334068,
-      "avg_save_rate": 12.389263850181498,
-      "avg_rer": 1.5250937787449017
-    },
     {
       "quarter_id": "2026-Q1",
       "avg_share_rate": 10.965470883770907,
       "avg_save_rate": 9.591168331008054,
       "avg_rer": 5.6514464232451855
+    },
+    {
+      "quarter_id": "2025-Q4",
+      "avg_share_rate": 1.972433930334068,
+      "avg_save_rate": 12.389263850181498,
+      "avg_rer": 1.5250937787449017
     }
   ],
-  "duration_correlation": {
-    "pearson_r": -0.8324,
-    "sample_size": 3
+  "quarters": {
+    "2026-Q1": {
+      "summary": {
+        "total": 6,
+        "videos_enriched": 5,
+        "videos_enrichment_failed": 1,
+        "videos_excluded": 0
+      },
+      "by_creator_tier": {
+        "Nano": {
+          "count": 1,
+          "avg_rer": 31.70071375830667,
+          "avg_viral_velocity": 58.462732919254655,
+          "avg_save_rate": 12.399068322981366
+        },
+        "Micro": {
+          "count": 1,
+          "avg_rer": 1.6464471403812826,
+          "avg_viral_velocity": 0.6210526315789473,
+          "avg_save_rate": 1.7789473684210526
+        },
+        "Macro": {
+          "count": 3,
+          "avg_rer": 0.06250588026105326,
+          "avg_viral_velocity": 1.9965961382978168,
+          "avg_save_rate": 12.410876886094092
+        },
+        "Mega": {
+          "count": 1,
+          "avg_rer": 0.374,
+          "avg_viral_velocity": 0.7192513368983957,
+          "avg_save_rate": 6.136363636363636
+        }
+      },
+      "by_relationship_tag": {
+        "Unclassified": {
+          "count": 5,
+          "avg_viral_velocity": 13.0343545342093,
+          "avg_save_rate": 11.153612523525457,
+          "avg_purchase_intent": 0.5
+        },
+        "Organic_Gifting": {
+          "count": 1,
+          "avg_viral_velocity": 0.6210526315789473,
+          "avg_save_rate": 1.7789473684210526,
+          "avg_purchase_intent": 0
+        }
+      },
+      "by_hook_type": {
+        "Talking-Head": {
+          "count": 4,
+          "avg_play_count": 135192.25,
+          "avg_save_rate": 9.040891665766742
+        },
+        "POV": {
+          "count": 1,
+          "avg_play_count": 128800,
+          "avg_save_rate": 12.399068322981366
+        }
+      },
+      "duration_correlation": {
+        "pearson_r": -0.2983,
+        "sample_size": 6
+      }
+    },
+    "2025-Q4": {
+      "summary": {
+        "total": 6,
+        "videos_enriched": 3,
+        "videos_enrichment_failed": 0,
+        "videos_excluded": 3
+      },
+      "by_creator_tier": {
+        "Micro": {
+          "count": 1,
+          "avg_rer": 3.213740458015267,
+          "avg_viral_velocity": 2.470308788598575,
+          "avg_save_rate": 5.5027711797308
+        },
+        "Macro": {
+          "count": 2,
+          "avg_rer": 0.6807704391097189,
+          "avg_viral_velocity": 1.7234965012018146,
+          "avg_save_rate": 15.832510185406846
+        }
+      },
+      "by_relationship_tag": {
+        "Unclassified": {
+          "count": 2,
+          "avg_viral_velocity": 1.4865510423439803,
+          "avg_save_rate": 13.556362735624669,
+          "avg_purchase_intent": 1
+        },
+        "Organic_Gifting": {
+          "count": 1,
+          "avg_viral_velocity": 2.9441997063142438,
+          "avg_save_rate": 10.055066079295154,
+          "avg_purchase_intent": 0
+        }
+      },
+      "by_hook_type": {
+        "Talking-Head": {
+          "count": 2,
+          "avg_play_count": 161600,
+          "avg_save_rate": 13.556362735624669
+        },
+        "ASMR-Unboxing": {
+          "count": 1,
+          "avg_play_count": 272400,
+          "avg_save_rate": 10.055066079295154
+        }
+      },
+      "duration_correlation": {
+        "pearson_r": -0.8324,
+        "sample_size": 3
+      }
+    }
   }
 }
