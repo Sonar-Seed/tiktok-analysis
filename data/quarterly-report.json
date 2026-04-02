@@ -1,943 +1,962 @@
 {
-  "generated_at": "2026-04-02T21:01:36.409Z",
+  "generated_at": "2026-04-02T22:38:58.463Z",
   "time_series": [
     {
       "quarter_id": "2026-Q1",
-      "avg_share_rate": 6.577785929877456,
-      "avg_save_rate": 9.768991760737205,
-      "avg_rer": 357.3947791314344,
+      "avg_share_rate": 3.76832761310305,
+      "avg_save_rate": 10.370085423976414,
+      "avg_rer": 0.9344577383071166,
       "viral_velocity_growth_vs_prior_quarter": null
     },
     {
       "quarter_id": "2025-Q4",
-      "avg_share_rate": 3.6992506321837713,
-      "avg_save_rate": 8.82398731671483,
-      "avg_rer": 651.7882404079959,
-      "viral_velocity_growth_vs_prior_quarter": -43.761462114765294
+      "avg_share_rate": 1.9506255640113845,
+      "avg_save_rate": 10.214284108869949,
+      "avg_rer": 72.77213344546222,
+      "viral_velocity_growth_vs_prior_quarter": -48.23630628003887
     },
     {
       "quarter_id": "2025-Q3",
-      "avg_share_rate": 3.9662013127874594,
-      "avg_save_rate": 8.678918146972137,
-      "avg_rer": 173.15790871477978,
-      "viral_velocity_growth_vs_prior_quarter": 7.216344799165436
+      "avg_share_rate": 2.3689204019264345,
+      "avg_save_rate": 8.32613540445808,
+      "avg_rer": 18.298833769527675,
+      "viral_velocity_growth_vs_prior_quarter": 21.44413800539162
     },
     {
       "quarter_id": "2025-Q2",
-      "avg_share_rate": 5.543177759766204,
-      "avg_save_rate": 11.240834566485228,
-      "avg_rer": 1039.2856586555806,
-      "viral_velocity_growth_vs_prior_quarter": 39.76037327945011
+      "avg_share_rate": 4.785360786963638,
+      "avg_save_rate": 11.298502805084352,
+      "avg_rer": 5.5382119801728615,
+      "viral_velocity_growth_vs_prior_quarter": 102.00597635412845
     }
   ],
   "quarters": {
     "2026-Q1": {
       "summary": {
-        "total": 35,
-        "videos_enriched": 23,
-        "videos_enrichment_failed": 1,
-        "videos_excluded": 9
+        "total": 21,
+        "videos_enriched": 15,
+        "videos_enrichment_failed": 0,
+        "videos_excluded": 6
       },
       "efficiency_metrics": {
-        "avg_svr": 0.9768991760737206,
-        "avg_viral_velocity": 0.6577785929877454,
-        "avg_rer": 357.3947791314344,
-        "utility_vs_viral_score": 0.7421930286120055,
-        "follower_to_view_alpha": 357.3947791314344,
-        "conversion_intent_score_index": 6.666666666666667,
-        "comment_intent_density": 0
+        "avg_svr": 1.0370085423976414,
+        "avg_viral_velocity": 0.3768327613103051,
+        "avg_rer": 0.9344577383071166,
+        "utility_vs_viral_score": 0.40366801577983363,
+        "follower_to_view_alpha": 0.9344577383071166,
+        "conversion_intent_score_index": 93.33333333333333,
+        "comment_intent_density": 1.0504495900977031,
+        "hook_to_rer_impact": [
+          {
+            "hook": "POV",
+            "avg_rer": 6.303915063039151
+          },
+          {
+            "hook": "Talking-Head",
+            "avg_rer": 0.6862491035162931
+          },
+          {
+            "hook": "ASMR-Unboxing",
+            "avg_rer": 0.44312548948307073
+          },
+          {
+            "hook": "Other",
+            "avg_rer": 0.007330736021901653
+          }
+        ]
       },
       "battle_comparisons": {
         "voiceover": {
-          "with_voiceover_avg_views": 113894.46153846153,
-          "without_voiceover_avg_views": 8131650.375
+          "with_voiceover_avg_views": 97348.09090909091,
+          "without_voiceover_avg_views": 487471.25
         },
         "face_presence": {
-          "with_face_avg_views": 99042.06666666667,
-          "without_face_avg_views": 10841366.666666666,
-          "with_face_svr": 0.7897572321055122,
-          "without_face_svr": 1.2359622866149451
+          "with_face_avg_views": 82601.07692307692,
+          "without_face_avg_views": 973450,
+          "with_face_svr": 1.102385295784646,
+          "without_face_svr": 0.612059645382112
         },
         "length_sweet_spot": {
-          "0-10": 289994.8333333333,
-          "11-20": 7148266.666666667,
-          "21-30": 21050219.5,
-          "31-60": 69200,
-          "60+": 85538.71428571429
+          "0-10": null,
+          "11-20": null,
+          "21-30": 440,
+          "31-60": 649108.3333333334,
+          "60+": 97540.81818181818
         },
         "audio_originality": {
-          "original_avg_performance": 2514470.3333333335,
-          "trending_music_avg_performance": 2677121
+          "original_avg_performance": 318544.1111111111,
+          "trending_music_avg_performance": 28594.5
         },
         "sound_strategy": {
-          "voiceover_and_trending": 7785,
-          "voiceover_only": 161054.22222222222
+          "voiceover_and_trending": 30976.75,
+          "voiceover_only": 135274.57142857142
         }
       },
       "deep_analysis": {
         "incentive_throttle_ratio": null,
         "incentive_type_rer_impact": {
-          "Gifted-Disclosed": 4.578737703218518,
-          "Organic": 1318.8074348792675,
-          "Paid-Partnership": 0.19737864077669903
+          "Gifted-Disclosed": 1.0006810956132035,
+          "Gifted-Undisclosed": 0.007330736021901653
         },
         "product_reveal_efficiency": {
-          "hook_reveal_avg_views": 5918605.090909091,
-          "mid_reveal_avg_views": 165082.14285714287,
-          "end_reveal_avg_views": 49800
+          "hook_reveal_avg_views": 260921.5,
+          "mid_reveal_avg_views": 133334.57142857142,
+          "end_reveal_avg_views": null
         },
         "time_to_product_impact": {
-          "mid": 165082.14285714287,
-          "hook": 5918605.090909091,
-          "none": 111900,
-          "end": 49800
+          "mid": 133334.57142857142,
+          "hook": 260921.5
         },
         "aesthetic_roi": {
-          "Dark-Moody": 151507,
-          "Lo-Fi": 16164,
-          "Other": 12088.5,
-          "Clean-Girl": 1624.6153846153845,
-          "DeskSetup": 739,
-          "Outdoor": 34
+          "Clean-Girl": 1878.642857142857,
+          "Maximalist": 108
         },
         "honest_review_premium": {
-          "critical_balanced_avg_views": 38080.5,
-          "raving_positive_avg_views": 3664303.888888889,
-          "critical_balanced_avg_shares": 55,
-          "raving_positive_avg_shares": 6784.555555555556
+          "critical_balanced_avg_views": 6962,
+          "raving_positive_avg_views": 215268,
+          "critical_balanced_avg_shares": 3,
+          "raving_positive_avg_shares": 1267.642857142857
         },
         "pain_point_conversion": {
-          "with_pain_point_avg_comments": 117.42857142857143,
-          "without_pain_point_avg_comments": 287.5
+          "with_pain_point_avg_comments": 116.75,
+          "without_pain_point_avg_comments": 268.57142857142856
+        },
+        "niche_performance": {
+          "Beauty": 0.9344577383071166
         }
       },
       "seo_discoverability": {
-        "avg_seo_saturation": 0.125,
-        "keyword_association_strength": [
-          "birthday gift",
-          "birthday gift for bestie",
-          "birthday gift idea"
-        ]
+        "avg_seo_saturation": 0,
+        "keyword_association_strength": []
       },
       "key_phrases": [
-        "PR haul",
-        "massive box of goodies",
-        "moving across the country",
-        "giveaway at the end",
-        "PR haul",
-        "beyond grateful",
-        "I literally swear by this stuff",
-        "I am obsessed",
-        "non-toxic or greenwashed",
-        "not approved",
-        "ingredient lists are louder",
-        "synthetic fragrance",
-        "brand new Jag",
-        "gold-faced Rolex",
-        "showroom floor",
-        "Yokohama 20 inches",
-        "picture of his biceps",
-        "Oh how I love getting gifted",
-        "Look at this one",
-        "Whoa",
-        "Check this out",
-        "Oh cool",
-        "36 months",
-        "perfect anniversary gift",
-        "Happy birthday to you",
-        "Happy birthday dear Laila",
-        "I love",
-        "Will you be my valentine",
-        "making gifts",
-        "love language",
-        "deserve the world",
-        "PR parcel",
+        "PR package",
         "90s theme",
         "Plush Pear",
         "Sweet Peach",
-        "summer scent",
         "nostalgic",
+        "dream PR",
         "micro-influencer",
-        "PR package unboxing",
-        "birthday month",
-        "Dermalogica",
-        "Amika",
-        "Saie Beauty",
-        "Poppi",
+        "skincare for a year",
+        "literally obsessed",
+        "spoiled by them",
+        "unbox my PR with me",
         "tried and true",
-        "use this every single night",
-        "I use these religiously",
-        "ready for a beach vacation",
-        "unboxing with me",
-        "stuff I received from brands",
-        "PR package",
-        "obsessed",
-        "summer in a bottle",
-        "so excited to try",
-        "PR-Haul",
-        "Imposter-Kick",
-        "Prada gifting",
-        "ich liebe den Matcha",
-        "insane",
-        "PR unboxing haul",
-        "pro collagen essentials",
-        "get on their PR list",
-        "hair and body mist",
+        "favorite",
+        "use these religiously",
+        "I'm gagged",
+        "weekly PR unboxing",
+        "I am obsessed",
+        "literally smells like summer",
+        "restock on literally everything",
+        "prunboxing",
+        "hudabeauty",
+        "Can’t wait to try it",
+        "PR unboxing",
+        "Makeup By Mario",
+        "cult classic",
+        "giveaway",
         "grateful heart",
-        "Makeup by Mario PR",
-        "giveaway soon",
-        "product heaven",
-        "little unboxing",
-        "gifted",
-        "partnership",
-        "styling this one",
-        "fashion history"
+        "setting sprays",
+        "PR and gifting",
+        "content creator",
+        "Valentino perfumes",
+        "hair glosses",
+        "initials engraved",
+        "multi-tasking spray",
+        "L'Oreal Lumi Bronzesticks",
+        "Whipped Feta",
+        "Spicy Pomegranate",
+        "showstopper",
+        "salty, sweet, and spicy",
+        "weekly PR haul",
+        "my fav brands",
+        "thank you",
+        "PR list",
+        "unboxing",
+        "food poisoning",
+        "obsessed",
+        "hair and body mist",
+        "facelift in a jar",
+        "fucking obsessed",
+        "so beyond grateful",
+        "overwhelmed",
+        "eternally grateful",
+        "massive PR haul",
+        "rapid-fire",
+        "story giveaways",
+        "pregnancy PR",
+        "testing panel",
+        "PR unboxing",
+        "new addition to my skincare routine",
+        "dark spot concentrate",
+        "giveaway is coming"
       ],
       "by_creator_tier": {
         "Nano": {
-          "count": 9,
-          "avg_rer": 888.5306871597103,
-          "avg_viral_velocity": 13.75642928403935,
-          "avg_save_rate": 14.80564066723215
+          "count": 3,
+          "avg_rer": 0.3153609381112245,
+          "avg_viral_velocity": 6.188499986949599,
+          "avg_save_rate": 16.769035544685337
         },
         "Micro": {
-          "count": 8,
-          "avg_rer": 161.74425539764457,
-          "avg_viral_velocity": 3.2530629006884952,
-          "avg_save_rate": 6.540586517065146
+          "count": 3,
+          "avg_rer": 1.4067875929307194,
+          "avg_viral_velocity": 3.090127656159512,
+          "avg_save_rate": 16.237929401548836
         },
         "Macro": {
-          "count": 7,
-          "avg_rer": 0.16447347774308446,
-          "avg_viral_velocity": 2.820094379893866,
-          "avg_save_rate": 8.346081581895708
+          "count": 8,
+          "avg_rer": 1.105209378366933,
+          "avg_viral_velocity": 3.4951725674459633,
+          "avg_save_rate": 6.585529084348732
         },
         "Mega": {
-          "count": 2,
-          "avg_rer": 0.19135772727272726,
-          "avg_viral_velocity": 0.7247033778473412,
-          "avg_save_rate": 4.997878282143432
+          "count": 1,
+          "avg_rer": 0.008745454545454546,
+          "avg_viral_velocity": 0.7276507276507277,
+          "avg_save_rate": 3.8461538461538463
         }
       },
       "by_relationship_tag": {
-        "Unclassified": {
-          "count": 10,
-          "avg_viral_velocity": 10.259415771448477,
-          "avg_save_rate": 11.130677102330276,
-          "avg_purchase_intent": 0.2222222222222222
-        },
         "Organic_Gifting": {
           "count": 15,
-          "avg_viral_velocity": 3.928609334679165,
-          "avg_save_rate": 8.303486648663858,
-          "avg_purchase_intent": 0.4166666666666667
+          "avg_viral_velocity": 3.76832761310305,
+          "avg_save_rate": 10.370085423976414,
+          "avg_purchase_intent": 0.4666666666666667
+        },
+        "Influencer_Paid": {
+          "count": 2,
+          "avg_viral_velocity": 3.0216265610721904,
+          "avg_save_rate": 7.46090973702914,
+          "avg_purchase_intent": 0.5
         },
         "Review_Sentiment": {
           "count": 2,
-          "avg_viral_velocity": 4.965054501777606,
-          "avg_save_rate": 10.144788916487341,
+          "avg_viral_velocity": 4.952750763898322,
+          "avg_save_rate": 10.121204293221155,
           "avg_purchase_intent": 0
         }
       },
       "calculated_insights": {
-        "nano_premium_percentage": 540127.3359523888,
+        "nano_premium_percentage": -71.46595529462438,
         "hook_efficiency_leaderboard": [
           {
             "hook": "ASMR-Unboxing",
-            "save_rate": 15.717023736801943
-          },
-          {
-            "hook": "POV",
-            "save_rate": 12.90450384571111
-          },
-          {
-            "hook": "B-Roll-Product",
-            "save_rate": 9.129782445611403
+            "save_rate": 11.445583376700908
           },
           {
             "hook": "Talking-Head",
-            "save_rate": 6.481557789628024
+            "save_rate": 10.778798766778177
+          },
+          {
+            "hook": "POV",
+            "save_rate": 9.938421052631579
           },
           {
             "hook": "Other",
-            "save_rate": 3.3333333333333335
+            "save_rate": 2.154553289284688
           }
         ],
         "incentive_throttle_ratio": null
       },
       "duration_correlation": {
         "pearson_r": null,
-        "sample_size": 25,
+        "sample_size": 14,
         "statistical_significance": "Insufficient Data"
       }
     },
     "2025-Q4": {
       "summary": {
-        "total": 32,
-        "videos_enriched": 19,
+        "total": 20,
+        "videos_enriched": 13,
         "videos_enrichment_failed": 0,
-        "videos_excluded": 13
+        "videos_excluded": 7
       },
       "efficiency_metrics": {
-        "avg_svr": 0.8823987316714828,
-        "avg_viral_velocity": 0.36992506321837715,
-        "avg_rer": 651.7882404079959,
-        "utility_vs_viral_score": 0.5941078317163176,
-        "follower_to_view_alpha": 651.7882404079959,
-        "conversion_intent_score_index": 8.421052631578947,
-        "comment_intent_density": 0
+        "avg_svr": 1.0214284108869944,
+        "avg_viral_velocity": 0.19506255640113843,
+        "avg_rer": 72.77213344546222,
+        "utility_vs_viral_score": 0.3208233023607056,
+        "follower_to_view_alpha": 72.77213344546222,
+        "conversion_intent_score_index": 91.15384615384616,
+        "comment_intent_density": 0.19050238837368683,
+        "hook_to_rer_impact": [
+          {
+            "hook": "Problem-Solution",
+            "avg_rer": 276.60431317831564
+          },
+          {
+            "hook": "Other",
+            "avg_rer": 19.72688909431786
+          },
+          {
+            "hook": "ASMR-Unboxing",
+            "avg_rer": 11.740489524392643
+          },
+          {
+            "hook": "Talking-Head",
+            "avg_rer": 9.964968152866241
+          },
+          {
+            "hook": "POV",
+            "avg_rer": 0.9463615470989273
+          }
+        ]
       },
       "battle_comparisons": {
         "voiceover": {
-          "with_voiceover_avg_views": 213625,
-          "without_voiceover_avg_views": 1798913.9090909092
+          "with_voiceover_avg_views": 194300,
+          "without_voiceover_avg_views": 798490
         },
         "face_presence": {
-          "with_face_avg_views": 608962.75,
-          "without_face_avg_views": 2027071.4285714286,
-          "with_face_svr": 0.8386876418273506,
-          "without_face_svr": 0.9573320285471382
+          "with_face_avg_views": 456068.1818181818,
+          "without_face_avg_views": 265050,
+          "with_face_svr": 1.1342304151271514,
+          "without_face_svr": 0.40101738756613153
         },
         "length_sweet_spot": {
-          "0-10": 9653,
-          "11-20": 686540,
-          "21-30": 301200,
-          "31-60": 3667400,
-          "60+": 750144.4444444445
+          "0-10": 1850,
+          "11-20": 142600,
+          "21-30": 253875,
+          "31-60": 885225,
+          "60+": 560800
         },
         "audio_originality": {
-          "original_avg_performance": 1284752.125,
-          "trending_music_avg_performance": 365089.3333333333
+          "original_avg_performance": 212646.5,
+          "trending_music_avg_performance": 3001203
         },
         "sound_strategy": {
           "voiceover_and_trending": null,
-          "voiceover_only": 213625
+          "voiceover_only": 194300
         }
       },
       "deep_analysis": {
-        "incentive_throttle_ratio": null,
+        "incentive_throttle_ratio": 0.9950244669383879,
         "incentive_type_rer_impact": {
-          "Organic": 1542.8826650193096,
-          "Gifted-Disclosed": 2.0907465668971255,
-          "Unknown": 21.695121951219512,
-          "Affiliate-Code": 0.4034065441506051
+          "Gifted-Disclosed": 10.26296597922044,
+          "Paid-Partnership": 11,
+          "Organic": 16.69201670075938,
+          "Affiliate-Code": 276.60431317831564
         },
         "product_reveal_efficiency": {
-          "hook_reveal_avg_views": 1507365.6153846155,
-          "mid_reveal_avg_views": 316883.3333333333,
-          "end_reveal_avg_views": null
+          "hook_reveal_avg_views": 614057.1428571428,
+          "mid_reveal_avg_views": 152750,
+          "end_reveal_avg_views": 484700
         },
         "time_to_product_impact": {
-          "hook": 1507365.6153846155,
-          "mid": 316883.3333333333
+          "hook": 614057.1428571428,
+          "mid": 152750,
+          "end": 484700
         },
         "aesthetic_roi": {
-          "Dark-Moody": 19419,
-          "Other": 7712.166666666667,
-          "Clean-Girl": 5212.857142857143,
-          "Lo-Fi": 1585.3333333333333,
-          "Minimalist": 414
+          "DeskSetup": 5630,
+          "Clean-Girl": 5010.2,
+          "Other": 3074.5,
+          "Minimalist": 386.3333333333333,
+          "Lo-Fi": 222.5
         },
         "honest_review_premium": {
-          "critical_balanced_avg_views": 143000,
-          "raving_positive_avg_views": 1290659.5625,
-          "critical_balanced_avg_shares": 218,
-          "raving_positive_avg_shares": 9119.25
+          "critical_balanced_avg_views": 29500,
+          "raving_positive_avg_views": 498895.45454545453,
+          "critical_balanced_avg_shares": 59,
+          "raving_positive_avg_shares": 544.8181818181819
         },
         "pain_point_conversion": {
-          "with_pain_point_avg_comments": 73,
-          "without_pain_point_avg_comments": 531
+          "with_pain_point_avg_comments": 48.5,
+          "without_pain_point_avg_comments": 273.3333333333333
+        },
+        "niche_performance": {
+          "Wellness": 398.6106071601355,
+          "Tech": 44.44444444444444,
+          "Other": 32.59172521467603,
+          "Fashion": 9.99035219874891,
+          "Beauty": 3.946079206374645
         }
       },
       "seo_discoverability": {
-        "avg_seo_saturation": 0.06432748538011697,
+        "avg_seo_saturation": 0.038461538461538464,
         "keyword_association_strength": []
       },
       "key_phrases": [
-        "least satiating food",
-        "Desserts by Clement",
-        "Dubai Chocolate Croissant",
-        "fill me up",
-        "Geschenkideen",
-        "Makeup Edition",
-        "meine Empfehlung",
-        "verschmiert nicht",
-        "hält die ganze Nacht",
-        "last minute gift ideas",
-        "college christmas gifts",
-        "3m worth of gifts",
-        "little princess",
-        "big brother",
-        "small gift exchange",
-        "grateful for my bf",
-        "pandora ring",
-        "shine a light on",
-        "massage gun gift",
-        "white elephant gift",
-        "gift wrap ideas",
-        "xmas gift ideas",
-        "for grandpa",
-        "Christmas wishlist ideas",
-        "holly jolly Christmas",
-        "cel mai mare unboxing",
-        "colet PR",
-        "testăm împreună",
-        "cod de reducere",
-        "parfumul meu preferat",
         "Dior sent me a locker",
-        "back to school",
-        "Dior beauty team",
         "Dior University",
-        "PR package",
-        "PR box of my dreams",
-        "She's sooo cringe",
-        "MCoBeauty",
-        "Bethenny Frankel collab",
-        "PR packages",
-        "pudding pot",
-        "toner pads",
-        "sensitive skin",
-        "duplicates",
+        "early birthday present",
+        "refresh your space",
+        "Receiving PR",
+        "dream brand",
+        "I made It moment",
+        "rhode skin",
         "PR haul",
-        "sent over some goodies",
-        "thank you so much to all these amazing brands",
-        "micro influencer",
+        "Suspicious Antwerp",
+        "THANK YOU SO MUCH",
         "PR haul",
-        "so grateful",
-        "Kylie Cosmetics",
-        "Look Fantastic",
-        "Dasique",
-        "Dr. PawPaw"
+        "sent over",
+        "Thank you so much",
+        "aelfric eden pr unboxing",
+        "cartoon dachshund hoodie",
+        "code: aaria25",
+        "cider try on haul",
+        "official collab",
+        "cuttest clothes",
+        "thermal long sleeve",
+        "waffle knit",
+        "all over print",
+        "fit is immaculate",
+        "Samples Finally Arrived",
+        "high-speed rail",
+        "faster than flying",
+        "first ever PR package",
+        "obsessed with this bag",
+        "$45 Webcam",
+        "Emeet C960 4k",
+        "Logitech C920x",
+        "orange shopping cart",
+        "feminine gel",
+        "pomegranate and centella",
+        "pH-balancing power",
+        "natural tightness",
+        "confidence from the inside out",
+        "one click of the button",
+        "windproof",
+        "reinforced skeleton",
+        "won't be in stock for long",
+        "deep core muscles",
+        "sitting too long",
+        "100 reps a day"
       ],
       "by_creator_tier": {
         "Nano": {
           "count": 5,
-          "avg_rer": 2434.8918778991097,
-          "avg_viral_velocity": 6.876923889463643,
-          "avg_save_rate": 7.665479896009354
+          "avg_rer": 172.5895927494398,
+          "avg_viral_velocity": 2.007340644437668,
+          "avg_save_rate": 7.172896270288851
         },
         "Micro": {
           "count": 7,
-          "avg_rer": 28.649862243918943,
-          "avg_viral_velocity": 3.5510209416166987,
-          "avg_save_rate": 7.254166886395778
+          "avg_rer": 11.620732450381297,
+          "avg_viral_velocity": 1.8502425635725401,
+          "avg_save_rate": 10.079826084511184
         },
         "Macro": {
-          "count": 7,
-          "avg_rer": 1.2811632212769486,
-          "avg_viral_velocity": 1.577713710408079,
-          "avg_save_rate": 11.22131304753779
+          "count": 1,
+          "avg_rer": 1.7446438911407065,
+          "avg_viral_velocity": 2.369731164951875,
+          "avg_save_rate": 26.36242947228676
         }
       },
       "by_relationship_tag": {
-        "Unclassified": {
-          "count": 8,
-          "avg_viral_velocity": 5.050190077305398,
-          "avg_save_rate": 11.442402824193394,
-          "avg_purchase_intent": 0.25
-        },
         "Organic_Gifting": {
-          "count": 10,
-          "avg_viral_velocity": 2.9863630562994126,
-          "avg_save_rate": 7.518530164794315,
-          "avg_purchase_intent": 0.3
-        },
-        "Paid_Partnership": {
-          "count": 1,
-          "avg_viral_velocity": 0.020610830054337642,
-          "avg_save_rate": 0.9312347760914372,
-          "avg_purchase_intent": 1
+          "count": 7,
+          "avg_viral_velocity": 2.0275786951576507,
+          "avg_save_rate": 6.406025695631422,
+          "avg_purchase_intent": 0.2857142857142857
         },
         "Influencer_Paid": {
+          "count": 4,
+          "avg_viral_velocity": 1.6959272755086716,
+          "avg_save_rate": 6.072386372156935,
+          "avg_purchase_intent": 0.5
+        },
+        "Unclassified": {
+          "count": 3,
+          "avg_viral_velocity": 2.27701226451332,
+          "avg_save_rate": 22.627385325574895,
+          "avg_purchase_intent": 0.3333333333333333
+        },
+        "Affiliate_Gifting": {
           "count": 1,
-          "avg_viral_velocity": 2.449664429530201,
-          "avg_save_rate": 4.228187919463087,
+          "avg_viral_velocity": 1.8716577540106951,
+          "avg_save_rate": 17.079889807162537,
+          "avg_purchase_intent": 1
+        },
+        "Review_Sentiment": {
+          "count": 1,
+          "avg_viral_velocity": 2.7027027027027026,
+          "avg_save_rate": 4.864864864864865,
           "avg_purchase_intent": 0
         }
       },
       "calculated_insights": {
-        "nano_premium_percentage": 189953.21394351515,
+        "nano_premium_percentage": 9792.539883115915,
         "hook_efficiency_leaderboard": [
           {
             "hook": "Other",
-            "save_rate": 26.371181938911022
-          },
-          {
-            "hook": "B-Roll-Product",
-            "save_rate": 11.941164296415744
+            "save_rate": 15.10632864870532
           },
           {
             "hook": "Talking-Head",
-            "save_rate": 9.196427935550451
+            "save_rate": 13.411742090832751
           },
           {
             "hook": "POV",
-            "save_rate": 7.364819108892284
+            "save_rate": 9.307432432432432
+          },
+          {
+            "hook": "Problem-Solution",
+            "save_rate": 8.43893236777316
           },
           {
             "hook": "ASMR-Unboxing",
-            "save_rate": 6.39924506153971
-          },
-          {
-            "hook": "Text-Only",
-            "save_rate": 0.812752477966254
+            "save_rate": 5.570520439781166
           }
         ],
         "incentive_throttle_ratio": null
       },
       "duration_correlation": {
         "pearson_r": null,
-        "sample_size": 19,
+        "sample_size": 13,
         "statistical_significance": "Insufficient Data"
       }
     },
     "2025-Q3": {
       "summary": {
-        "total": 27,
-        "videos_enriched": 18,
+        "total": 22,
+        "videos_enriched": 17,
         "videos_enrichment_failed": 0,
-        "videos_excluded": 9
+        "videos_excluded": 5
       },
       "efficiency_metrics": {
-        "avg_svr": 0.8678918146972135,
-        "avg_viral_velocity": 0.39662013127874596,
-        "avg_rer": 173.15790871477978,
-        "utility_vs_viral_score": 0.533758363991147,
-        "follower_to_view_alpha": 173.15790871477978,
-        "conversion_intent_score_index": 14.444444444444445,
-        "comment_intent_density": 0
+        "avg_svr": 0.832613540445808,
+        "avg_viral_velocity": 0.2368920401926434,
+        "avg_rer": 18.298833769527675,
+        "utility_vs_viral_score": 0.3747315914181236,
+        "follower_to_view_alpha": 18.298833769527675,
+        "conversion_intent_score_index": 82.94117647058823,
+        "comment_intent_density": 0.20977140416233234,
+        "hook_to_rer_impact": [
+          {
+            "hook": "POV",
+            "avg_rer": 30.60439199074313
+          },
+          {
+            "hook": "ASMR-Unboxing",
+            "avg_rer": 25.60033050648083
+          },
+          {
+            "hook": "Talking-Head",
+            "avg_rer": 0.7427051815616368
+          }
+        ]
       },
       "battle_comparisons": {
         "voiceover": {
-          "with_voiceover_avg_views": 619654.5454545454,
-          "without_voiceover_avg_views": 9874028.57142857
+          "with_voiceover_avg_views": 620003,
+          "without_voiceover_avg_views": 552886
         },
         "face_presence": {
-          "with_face_avg_views": 8221062.5,
-          "without_face_avg_views": 1016590,
-          "with_face_svr": 0.8002013925571587,
-          "without_face_svr": 0.9220441524092571
+          "with_face_avg_views": 548107.2857142857,
+          "without_face_avg_views": 636771.5,
+          "with_face_svr": 0.6131950432149017,
+          "without_face_svr": 0.9862064885074424
         },
         "length_sweet_spot": {
-          "0-10": 208000,
-          "11-20": 1036925,
-          "21-30": 22427933.333333332,
-          "31-60": 430425,
-          "60+": 428866.6666666667
+          "0-10": 537931,
+          "11-20": 849579.25,
+          "21-30": null,
+          "31-60": 969644.4,
+          "60+": 68826.8
         },
         "audio_originality": {
-          "original_avg_performance": 5320759.5,
-          "trending_music_avg_performance": 394833
+          "original_avg_performance": 784524.0909090909,
+          "trending_music_avg_performance": 265167
         },
         "sound_strategy": {
           "voiceover_and_trending": 110750,
-          "voiceover_only": 732744.4444444445
+          "voiceover_only": 721853.6
         }
       },
       "deep_analysis": {
         "incentive_throttle_ratio": null,
         "incentive_type_rer_impact": {
-          "Organic": 470.55043457241317,
-          "Gifted-Disclosed": 9.709840012591197,
-          "Unknown": 1108.4126984126983
+          "Gifted-Disclosed": 11.075339066134934,
+          "Organic": 7.180508199275744,
+          "Gifted-Undisclosed": 122,
+          "Unknown": 42.42424242424242
         },
         "product_reveal_efficiency": {
-          "hook_reveal_avg_views": 7379580,
-          "mid_reveal_avg_views": 119800,
-          "end_reveal_avg_views": null
+          "hook_reveal_avg_views": 787452.7777777778,
+          "mid_reveal_avg_views": 570787.4,
+          "end_reveal_avg_views": 3154
         },
         "time_to_product_impact": {
-          "hook": 7379580,
-          "mid": 119800,
-          "hook | mid | end": 1300000
+          "mid": 570787.4,
+          "hook": 787452.7777777778,
+          "hook | mid | end": 130150,
+          "end": 3154
         },
         "aesthetic_roi": {
-          "Lo-Fi": 159356,
-          "Clean-Girl": 8353,
-          "Maximalist": 3381.6666666666665,
-          "Minimalist": 2230.5,
-          "Other": 762
+          "Clean-Girl": 6857.416666666667,
+          "Lo-Fi": 22.666666666666668,
+          "Minimalist": 22
         },
         "honest_review_premium": {
-          "critical_balanced_avg_views": 698300,
-          "raving_positive_avg_views": 4925213.333333333,
-          "critical_balanced_avg_shares": 3147,
-          "raving_positive_avg_shares": 8554
+          "critical_balanced_avg_views": null,
+          "raving_positive_avg_views": 634479.125,
+          "critical_balanced_avg_shares": null,
+          "raving_positive_avg_shares": 1015.625
         },
         "pain_point_conversion": {
-          "with_pain_point_avg_comments": 257.6,
-          "without_pain_point_avg_comments": 658.6153846153846
+          "with_pain_point_avg_comments": 927,
+          "without_pain_point_avg_comments": 257
+        },
+        "niche_performance": {
+          "Fashion": 31.31665030813477,
+          "Beauty": 13.925239371417433,
+          "Home": 1.319289455704851
         }
       },
       "seo_discoverability": {
-        "avg_seo_saturation": 0.07407407407407407,
+        "avg_seo_saturation": 0,
         "keyword_association_strength": []
       },
       "key_phrases": [
-        "Just One Please",
-        "I'm right there",
-        "What are you doing",
-        "6 months",
-        "anniversary gift",
-        "memory box",
-        "PR haul",
-        "50,000 worth of Kiko Milano",
-        "literally my favorite right now",
-        "first PR from NARS",
-        "Follow for more",
-        "TikTok Shop PR haul",
-        "made my hair feel so soft",
-        "trying to grow my hair out",
-        "hair won't get damaged",
-        "fluffy tights",
-        "biggest PR haul ever",
-        "another day, another slay",
-        "limited edition",
-        "strawberry shortcake lip mask",
-        "PR from OUAI",
-        "under 2K followers",
-        "SmallCreatorPR",
-        "PitchToBrands",
-        "HUGE pr unboxing",
-        "6 weeks worth of pr",
-        "so grateful",
-        "unboxing these together",
-        "aftermath",
-        "kalorienfrei und zuckerfrei",
-        "Musikbox von JBL",
-        "drei Euro neunundneunzig",
-        "Pfirsich Eistee",
-        "taste better when it's miniature",
-        "cheesecake taco bites",
-        "the perfect everyday bag",
-        "my new favorite bag",
+        "first ever PR package",
+        "AMZ Girl",
+        "fairy eyelash extension kit",
+        "Bond and Seal",
         "look how pink",
         "so pretty",
-        "craziest dream",
-        "first ever PR package",
-        "AMZ Girls",
-        "Fairy Eyelash Extension Kit",
-        "so gorgeous",
-        "PR package from miu miu",
-        "smells amazinggg",
+        "insane pinky pr box",
+        "PR packages",
+        "Bubble Nose Mask",
+        "Biore really said",
+        "so many",
+        "PR package",
+        "smells amazing",
         "Miutine",
+        "TikTok Shop PR haul",
+        "made my hair feel so soft",
+        "repair any snapped bits",
+        "everything is linked",
         "PR haul",
-        "unboxing",
-        "glass skin",
-        "clean girl candy blush",
-        "thank you to these brands"
+        "strawberry shortcake lip mask",
+        "Staud pocketbook",
+        "mini Huda Beauty",
+        "Makeup by Mario",
+        "HUGE pr unboxing",
+        "6 weeks worth of pr",
+        "let's unbox these together",
+        "aftermath",
+        "PR from OUAI",
+        "under 2K followers",
+        "self care date",
+        "dropout college tracksuit",
+        "washed hoodie",
+        "French Terry",
+        "vintage tee",
+        "unboxing my first T-shirt sample",
+        "clothing brand",
+        "streetwear",
+        "Don't ever let somebody tell you you can't do something",
+        "You got a dream, you got to protect it",
+        "You want something, go get it",
+        "Unbox my free Swatches",
+        "Sample heaven",
+        "touching all the fabrics",
+        "timeless elegance",
+        "first sample",
+        "brand owner",
+        "fifteen year old",
+        "Brands that will send PR",
+        "0 followers needed",
+        "micro influencer",
+        "emailing brands"
       ],
       "by_creator_tier": {
         "Nano": {
-          "count": 3,
-          "avg_rer": 557.4615297249915,
-          "avg_viral_velocity": 5.814490738627929,
-          "avg_save_rate": 11.896156602717538
+          "count": 6,
+          "avg_rer": 40.02658929971341,
+          "avg_viral_velocity": 2.2966595588808953,
+          "avg_save_rate": 6.474952496830315
         },
         "Micro": {
-          "count": 6,
-          "avg_rer": 235.09244218683054,
-          "avg_viral_velocity": 3.6885603578773227,
-          "avg_save_rate": 5.958866945477759
+          "count": 4,
+          "avg_rer": 11.58326676020804,
+          "avg_viral_velocity": 3.74468722475265,
+          "avg_save_rate": 14.107234200457123
         },
         "Macro": {
-          "count": 8,
-          "avg_rer": 4.23188932125986,
-          "avg_viral_velocity": 3.856360022014683,
-          "avg_save_rate": 9.851618259196274
+          "count": 5,
+          "avg_rer": 4.598823339480663,
+          "avg_viral_velocity": 2.032759239085334,
+          "avg_save_rate": 7.563301141590051
         },
         "Mega": {
-          "count": 1,
-          "avg_rer": 0.048,
-          "avg_viral_velocity": 0.9659090909090909,
-          "avg_save_rate": 5.965909090909091
+          "count": 2,
+          "avg_rer": 0.7967272727272727,
+          "avg_viral_velocity": 0.674572192513369,
+          "avg_save_rate": 4.224572192513369
         }
       },
       "by_relationship_tag": {
-        "Unclassified": {
-          "count": 4,
-          "avg_viral_velocity": 4.0971202495474275,
-          "avg_save_rate": 5.946929514277427,
-          "avg_purchase_intent": 0.5
-        },
         "Organic_Gifting": {
-          "count": 14,
-          "avg_viral_velocity": 3.928795902284613,
-          "avg_save_rate": 9.459486327742054,
-          "avg_purchase_intent": 0.42857142857142855
-        },
-        "Review_Sentiment": {
-          "count": 1,
-          "avg_viral_velocity": 4.365384615384616,
-          "avg_save_rate": 20.682692307692307,
-          "avg_purchase_intent": 1
-        },
-        "Paid_Partnership": {
-          "count": 1,
-          "avg_viral_velocity": 8.571428571428571,
-          "avg_save_rate": 12.038571428571428,
-          "avg_purchase_intent": 0
+          "count": 13,
+          "avg_viral_velocity": 2.7015915256654086,
+          "avg_save_rate": 9.503937922218594,
+          "avg_purchase_intent": 0.38461538461538464
         },
         "Influencer_Paid": {
           "count": 2,
           "avg_viral_velocity": 2.86403129657228,
           "avg_save_rate": 4.894649776453055,
           "avg_purchase_intent": 0
+        },
+        "Unclassified": {
+          "count": 4,
+          "avg_viral_velocity": 1.2877392497747673,
+          "avg_save_rate": 4.498277221736413,
+          "avg_purchase_intent": 0.5
+        },
+        "Review_Sentiment": {
+          "count": 1,
+          "avg_viral_velocity": 4.365384615384616,
+          "avg_save_rate": 20.682692307692307,
+          "avg_purchase_intent": 1
         }
       },
       "calculated_insights": {
-        "nano_premium_percentage": 13072.875928594269,
+        "nano_premium_percentage": 770.3658815525092,
         "hook_efficiency_leaderboard": [
           {
-            "hook": "B-Roll-Product",
-            "save_rate": 13.614619091968002
-          },
-          {
-            "hook": "ASMR-Unboxing",
-            "save_rate": 8.491343656343656
+            "hook": "POV",
+            "save_rate": 15.444900139258419
           },
           {
             "hook": "Talking-Head",
-            "save_rate": 8.083058674706608
+            "save_rate": 6.94257036783904
           },
           {
-            "hook": "POV",
-            "save_rate": 7.6072436263209
+            "hook": "ASMR-Unboxing",
+            "save_rate": 3.7773964954101698
           }
         ],
         "incentive_throttle_ratio": null
       },
       "duration_correlation": {
         "pearson_r": null,
-        "sample_size": 18,
+        "sample_size": 16,
         "statistical_significance": "Insufficient Data"
       }
     },
     "2025-Q2": {
       "summary": {
-        "total": 22,
-        "videos_enriched": 19,
+        "total": 17,
+        "videos_enriched": 13,
         "videos_enrichment_failed": 0,
-        "videos_excluded": 3
+        "videos_excluded": 4
       },
       "efficiency_metrics": {
-        "avg_svr": 1.1240834566485225,
-        "avg_viral_velocity": 0.5543177759766205,
-        "avg_rer": 1039.2856586555806,
-        "utility_vs_viral_score": 0.6959294763605195,
-        "follower_to_view_alpha": 1039.2856586555806,
-        "conversion_intent_score_index": 7.368421052631579,
-        "comment_intent_density": 0
+        "avg_svr": 1.1298502805084352,
+        "avg_viral_velocity": 0.4785360786963638,
+        "avg_rer": 5.5382119801728615,
+        "utility_vs_viral_score": 0.448251061864062,
+        "follower_to_view_alpha": 5.5382119801728615,
+        "conversion_intent_score_index": 93.07692307692308,
+        "comment_intent_density": 0.2512324916822366,
+        "hook_to_rer_impact": [
+          {
+            "hook": "Talking-Head",
+            "avg_rer": 8.171913240410058
+          },
+          {
+            "hook": "POV",
+            "avg_rer": 4.568378060148163
+          },
+          {
+            "hook": "ASMR-Unboxing",
+            "avg_rer": 1.4141517347701191
+          }
+        ]
       },
       "battle_comparisons": {
         "voiceover": {
-          "with_voiceover_avg_views": 1090364.0666666667,
-          "without_voiceover_avg_views": 3674900
+          "with_voiceover_avg_views": 561256.2,
+          "without_voiceover_avg_views": 101865.66666666667
         },
         "face_presence": {
-          "with_face_avg_views": 1379540,
-          "without_face_avg_views": 1917740.111111111,
-          "with_face_svr": 0.9374891483754013,
-          "without_face_svr": 1.3314104658408796
+          "with_face_avg_views": 630377.7777777778,
+          "without_face_avg_views": 61189.75,
+          "with_face_svr": 1.050022012478304,
+          "without_face_svr": 1.3094638835762293
         },
         "length_sweet_spot": {
-          "0-10": 280540.25,
-          "11-20": 3520550,
-          "21-30": 549300,
-          "31-60": null,
-          "60+": 1101571.4285714286
+          "0-10": 8662,
+          "11-20": 39532.333333333336,
+          "21-30": 98600,
+          "31-60": 65050,
+          "60+": 927033.3333333334
         },
         "audio_originality": {
-          "original_avg_performance": 1931099.3333333333,
-          "trending_music_avg_performance": 553329.5
+          "original_avg_performance": 645603.8888888889,
+          "trending_music_avg_performance": 35779.25
         },
         "sound_strategy": {
-          "voiceover_and_trending": 502753.6666666667,
-          "voiceover_only": 1237266.6666666667
+          "voiceover_and_trending": 23731,
+          "voiceover_only": 695637.5
         }
       },
       "deep_analysis": {
         "incentive_throttle_ratio": null,
         "incentive_type_rer_impact": {
-          "Organic": 2627.540640258188,
-          "Unknown": 1282.051282051282,
-          "Gifted-Disclosed": 6.508340963402688
+          "Gifted-Disclosed": 5.5382119801728615
         },
         "product_reveal_efficiency": {
-          "hook_reveal_avg_views": 2010640.0714285714,
-          "mid_reveal_avg_views": 701875,
-          "end_reveal_avg_views": null
+          "hook_reveal_avg_views": 426908.4285714286,
+          "mid_reveal_avg_views": 699925,
+          "end_reveal_avg_views": 65050
         },
         "time_to_product_impact": {
-          "hook": 2010640.0714285714,
-          "mid": 701875,
-          "hook | mid | end": 98600
+          "hook": 426908.4285714286,
+          "mid": 699925,
+          "end": 65050
         },
         "aesthetic_roi": {
-          "Minimalist": 39922,
-          "Other": 21235,
-          "DeskSetup": 17355,
-          "Clean-Girl": 9976.09090909091,
-          "Lo-Fi": 2537,
-          "Maximalist": 119
+          "Clean-Girl": 5494.9,
+          "Maximalist": 697,
+          "Minimalist": 206.5
         },
         "honest_review_premium": {
           "critical_balanced_avg_views": null,
-          "raving_positive_avg_views": 1713597.8333333333,
+          "raving_positive_avg_views": 455243,
           "critical_balanced_avg_shares": null,
-          "raving_positive_avg_shares": 6888.111111111111
+          "raving_positive_avg_shares": 2722.5384615384614
         },
         "pain_point_conversion": {
-          "with_pain_point_avg_comments": 1281.5,
-          "without_pain_point_avg_comments": 483.93333333333334
+          "with_pain_point_avg_comments": 993.75,
+          "without_pain_point_avg_comments": 347.6666666666667
+        },
+        "niche_performance": {
+          "Beauty": 5.9703722711696985,
+          "Fashion": 0.3522884882108183
         }
       },
       "seo_discoverability": {
-        "avg_seo_saturation": 0.15789473684210525,
-        "keyword_association_strength": [
-          "gift box",
-          "Gift Ideas",
-          "gift ideas best friend",
-          "gifts for best friend",
-          "box gift ideas"
-        ]
+        "avg_seo_saturation": 0.07692307692307693,
+        "keyword_association_strength": []
       },
       "key_phrases": [
-        "what my boyfriend got me",
-        "funniest thing he bought me",
-        "cutest thing anyone’s ever done for me",
-        "I win",
-        "jelly cats",
-        "level 50 exclusive Pegasus",
-        "thank you so much for the gift",
-        "hakuna matata",
-        "Look how pink",
-        "so pretty",
-        "Giftset idea",
-        "Minder dan €10",
-        "Action hack",
-        "love language",
-        "gift giving",
-        "oh my angel",
-        "precious gift ever",
-        "what would you do for love",
-        "Huge PR unboxing haul",
-        "thank you so much",
-        "so excited for this",
-        "big pr unboxing",
-        "produits offerts",
-        "Merci à toutes les marques",
-        "HUGE Bubble PR haul",
-        "shop Bubble at Shoppers Drug Mart",
+        "mystery package",
+        "creative PR package",
+        "Issey Miyake",
+        "inspired by the ocean",
         "PR packages",
         "unboxing them",
         "stay tuned for part 2",
-        "super fine and thin hair",
-        "thank you so much",
-        "Birthday PR Unboxing",
-        "thank you to every single brand",
-        "obsessed with Charlotte Tilbury",
-        "literally love Briogeo",
-        "favorite brands",
-        "receive pr",
-        "keep posting your content",
-        "90% of life is confidence",
-        "mystery package",
-        "coolest package",
-        "inspired by the ocean",
-        "creative PR package",
-        "bedazzled mini lip therapies",
-        "PR packages",
-        "double it and give it to the next person",
-        "Rosy Lips",
-        "Creme Brulee",
+        "hairline powder",
         "coolest PR box",
         "all of those colors",
-        "be so for real",
+        "Rare Beauty",
         "lifetime supply",
+        "favorite vanilla perfume",
+        "Mona Kattan",
         "Vanilla 28",
-        "giveaway",
-        "Mona Kattan"
+        "fragrance travel case",
+        "MONDAY PR",
+        "5 YEARS OF MONDAY",
+        "birthday pr unboxing",
+        "PR UNBO",
+        "Revolution Makeup",
+        "Flower Knows",
+        "strawberry collection",
+        "Huge PR unboxing haul",
+        "Thank you so much",
+        "I am so grateful",
+        "giveaway at 1 million",
+        "small creator pr haul",
+        "everything I've gotten in the mail this week",
+        "Fashion Nova sent me",
+        "10 out of 10",
+        "Birthday PR Unboxing",
+        "literally obsessed",
+        "spoiled me",
+        "favorite products",
+        "excited to try them",
+        "favorite brands send you pr",
+        "keep posting your content",
+        "Glow Recipe",
+        "glowing skin starts here",
+        "most unique PR package",
+        "so insane I love ittt",
+        "chanel beauty",
+        "chanel chance",
+        "first PR package",
+        "Korean skincare brand",
+        "look at the packaging"
       ],
       "by_creator_tier": {
         "Nano": {
-          "count": 5,
-          "avg_rer": 3862.078962588842,
-          "avg_viral_velocity": 8.172328345343917,
-          "avg_save_rate": 14.092415661874393
+          "count": 1,
+          "avg_rer": 45.32710280373832,
+          "avg_viral_velocity": 1.3144329896907216,
+          "avg_save_rate": 8.11855670103093
         },
         "Micro": {
-          "count": 7,
-          "avg_rer": 60.720463550516506,
-          "avg_viral_velocity": 3.949518328338372,
-          "avg_save_rate": 9.558926566945912
+          "count": 6,
+          "avg_rer": 2.7981614101143446,
+          "avg_viral_velocity": 4.737787015779538,
+          "avg_save_rate": 12.551623435803931
         },
         "Macro": {
           "count": 4,
-          "avg_rer": 1.9904323463693454,
-          "avg_viral_velocity": 6.6099888811991665,
-          "avg_save_rate": 11.65540657072092
+          "avg_rer": 1.9757393012738864,
+          "avg_viral_velocity": 6.833619624645392,
+          "avg_save_rate": 11.883902213913501
         },
         "Mega": {
-          "count": 3,
-          "avg_rer": 1.0092424242424243,
-          "avg_viral_velocity": 3.4573839618910043,
-          "avg_save_rate": 9.859888734114087
+          "count": 2,
+          "avg_rer": 0.9888636363636364,
+          "avg_viral_velocity": 2.5670283237888873,
+          "avg_save_rate": 7.9583151472940195
         }
       },
       "by_relationship_tag": {
-        "Unclassified": {
-          "count": 8,
-          "avg_viral_velocity": 7.190879094045077,
-          "avg_save_rate": 11.979011441315729,
-          "avg_purchase_intent": 0.125
-        },
         "Organic_Gifting": {
           "count": 11,
-          "avg_viral_velocity": 4.344849516654296,
-          "avg_save_rate": 10.703978657517588,
-          "avg_purchase_intent": 0.45454545454545453
-        },
-        "Paid_Partnership": {
-          "count": 1,
-          "avg_viral_velocity": 3.618640038040894,
-          "avg_save_rate": 13.85164051355207,
-          "avg_purchase_intent": 0
+          "avg_viral_velocity": 3.9413890528123563,
+          "avg_save_rate": 11.603045039530786,
+          "avg_purchase_intent": 0.6363636363636364
         },
         "Review_Sentiment": {
-          "count": 2,
-          "avg_viral_velocity": 7.123068582808932,
-          "avg_save_rate": 15.056686948993885,
-          "avg_purchase_intent": 0.5
+          "count": 1,
+          "avg_viral_velocity": 7.8503809743708155,
+          "avg_save_rate": 11.313784345416764,
+          "avg_purchase_intent": 0
         },
         "Influencer_Paid": {
-          "count": 1,
-          "avg_viral_velocity": 4.716024340770791,
-          "avg_save_rate": 8.630831643002029,
+          "count": 3,
+          "avg_viral_velocity": 3.762473428107832,
+          "avg_save_rate": 12.069233236414702,
           "avg_purchase_intent": 1
+        },
+        "Unclassified": {
+          "count": 2,
+          "avg_viral_velocity": 9.427205324795686,
+          "avg_save_rate": 9.62352051562895,
+          "avg_purchase_intent": 0
         }
       },
       "calculated_insights": {
-        "nano_premium_percentage": 193932.16440053738,
+        "nano_premium_percentage": 2194.1843984433076,
         "hook_efficiency_leaderboard": [
           {
             "hook": "POV",
-            "save_rate": 14.665480224453505
+            "save_rate": 19.162072665384045
           },
           {
             "hook": "ASMR-Unboxing",
-            "save_rate": 10.04344452460983
+            "save_rate": 10.552775931062158
           },
           {
             "hook": "Talking-Head",
-            "save_rate": 8.442804674064295
+            "save_rate": 9.477898201582834
           }
         ],
         "incentive_throttle_ratio": null
       },
       "duration_correlation": {
         "pearson_r": null,
-        "sample_size": 19,
+        "sample_size": 13,
         "statistical_significance": "Insufficient Data"
       }
     }
