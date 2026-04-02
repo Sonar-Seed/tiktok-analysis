@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-04-02T14:27:58.235Z",
+  "generated_at": "2026-04-02T14:31:46.320Z",
   "time_series": [
     {
       "quarter_id": "2026-Q1",
       "avg_share_rate": 10.965470883770907,
       "avg_save_rate": 9.591168331008054,
-      "avg_rer": 5.6514464232451855
+      "avg_rer": 5.6514464232451855,
+      "viral_velocity_growth_vs_prior_quarter": null
     },
     {
       "quarter_id": "2025-Q4",
       "avg_share_rate": 1.972433930334068,
       "avg_save_rate": 12.389263850181498,
-      "avg_rer": 1.5250937787449017
+      "avg_rer": 1.5250937787449017,
+      "viral_velocity_growth_vs_prior_quarter": -82.01231893056863
     }
   ],
   "quarters": {
@@ -35,21 +37,29 @@
         },
         "face_presence": {
           "with_face_svr": 0.9712526997209665,
-          "without_face_svr": 0
+          "without_face_svr": null
         },
         "length_sweet_spot": {
           "0-10": 65684.5,
           "11-20": 95000,
-          "21-30": 0,
+          "21-30": null,
           "31-60": 69200,
           "60+": 193400
         },
         "audio_originality": {
           "original_avg_performance": 115060.5,
-          "trending_music_avg_performance": 0
+          "trending_music_avg_performance": null
+        },
+        "sound_strategy": {
+          "voiceover_and_trending": null,
+          "voiceover_only": 135192.25
         }
       },
       "deep_analysis": {
+        "incentive_type_rer_impact": {
+          "Gifted-Disclosed": 0.16965030189007446,
+          "Organic": 16.673580449343977
+        },
         "time_to_product_impact": {
           "mid": 188284.5,
           "hook": 69200,
@@ -127,21 +137,23 @@
           "avg_purchase_intent": 0
         }
       },
-      "by_hook_type": {
-        "Talking-Head": {
-          "count": 4,
-          "avg_play_count": 135192.25,
-          "avg_save_rate": 9.040891665766742
-        },
-        "POV": {
-          "count": 1,
-          "avg_play_count": 128800,
-          "avg_save_rate": 12.399068322981366
-        }
+      "calculated_insights": {
+        "nano_premium_percentage": 50616.370405328154,
+        "hook_efficiency_leaderboard": [
+          {
+            "hook": "POV",
+            "save_rate": 12.399068322981366
+          },
+          {
+            "hook": "Talking-Head",
+            "save_rate": 9.040891665766742
+          }
+        ]
       },
       "duration_correlation": {
-        "pearson_r": -0.2983,
-        "sample_size": 6
+        "pearson_r": null,
+        "sample_size": 6,
+        "statistical_significance": "Insufficient Data"
       }
     },
     "2025-Q4": {
@@ -167,18 +179,26 @@
           "without_face_svr": 1.0055066079295154
         },
         "length_sweet_spot": {
-          "0-10": 0,
-          "11-20": 0,
-          "21-30": 0,
+          "0-10": null,
+          "11-20": null,
+          "21-30": null,
           "31-60": 272400,
           "60+": 161600
         },
         "audio_originality": {
           "original_avg_performance": 161805.5,
           "trending_music_avg_performance": 273202
+        },
+        "sound_strategy": {
+          "voiceover_and_trending": null,
+          "voiceover_only": 161600
         }
       },
       "deep_analysis": {
+        "incentive_type_rer_impact": {
+          "Organic": 2.1135609135161255,
+          "Gifted-Disclosed": 0.348159509202454
+        },
         "time_to_product_impact": {
           "hook": 198533.33333333334
         },
@@ -234,21 +254,23 @@
           "avg_purchase_intent": 0
         }
       },
-      "by_hook_type": {
-        "Talking-Head": {
-          "count": 2,
-          "avg_play_count": 161600,
-          "avg_save_rate": 13.556362735624669
-        },
-        "ASMR-Unboxing": {
-          "count": 1,
-          "avg_play_count": 272400,
-          "avg_save_rate": 10.055066079295154
-        }
+      "calculated_insights": {
+        "nano_premium_percentage": null,
+        "hook_efficiency_leaderboard": [
+          {
+            "hook": "Talking-Head",
+            "save_rate": 13.556362735624669
+          },
+          {
+            "hook": "ASMR-Unboxing",
+            "save_rate": 10.055066079295154
+          }
+        ]
       },
       "duration_correlation": {
-        "pearson_r": -0.8324,
-        "sample_size": 3
+        "pearson_r": null,
+        "sample_size": 3,
+        "statistical_significance": "Insufficient Data"
       }
     }
   }
