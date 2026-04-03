@@ -1,6 +1,6 @@
 {
   "report_config": {
-    "generated_at": "2026-04-03T09:36:38.177Z",
+    "generated_at": "2026-04-03T09:41:10.906Z",
     "validity_threshold_n": 10,
     "outlier_exclusion_method": "winsorize_3sigma",
     "rer_outlier_cap_applied": true,
@@ -272,6 +272,28 @@
             "comments_skewness": 7.388470949244011
           }
         },
+        "sound_strategy": {
+          "voiceover_and_trending": {
+            "views_avg": 785368.6571428571,
+            "views_median": 115400,
+            "views_p25": 8291,
+            "views_p75": 739000,
+            "views_stddev": 1356541.2348537615,
+            "n": 35,
+            "valid": true,
+            "views_skewness": 2.0836643720902748
+          },
+          "voiceover_only": {
+            "views_avg": 1497289.6330935252,
+            "views_median": 114800,
+            "views_p25": 6124,
+            "views_p75": 1000000,
+            "views_stddev": 4833356.428186191,
+            "n": 139,
+            "valid": true,
+            "views_skewness": 7.185814289448832
+          }
+        },
         "length_sweet_spot": {
           "0-15": {
             "views_avg": 1150700.3970588236,
@@ -317,7 +339,7 @@
       },
       "deep_analysis": {
         "incentive_throttle_ratio": {
-          "value": 0.0311654056990062,
+          "value": 32.08685969494336,
           "n_organic": 62,
           "n_affiliate": 16,
           "organic_median_rer": 1.3805124223602485,
@@ -553,9 +575,9 @@
         "pearson_r": -0.03246945219808033,
         "pearson_r_ci_lower": -0.16025833951041832,
         "pearson_r_ci_upper": 0.09531943511425764,
-        "p_value": 0.06284786268112866,
+        "p_value": 0.6193,
         "sample_size": 237,
-        "statistical_significance": "High",
+        "statistical_significance": "Not Significant",
         "interpretation": "Negligible",
         "valid": true
       },
@@ -813,7 +835,7 @@
             "valid": false
           }
         ],
-        "overall_quality_score": 0.8837209302325582,
+        "overall_quality_score": 0.8888888888888888,
         "notes": "Analysis on n=259. 5 flags found."
       }
     },
@@ -1014,6 +1036,28 @@
             "comments_skewness": 6.351709784450659
           }
         },
+        "sound_strategy": {
+          "voiceover_and_trending": {
+            "views_avg": 1489051.25,
+            "views_median": 351400,
+            "views_p25": 168250,
+            "views_p75": 487075,
+            "views_stddev": 3033623.070438743,
+            "n": 12,
+            "valid": true,
+            "views_skewness": 2.786052967923613
+          },
+          "voiceover_only": {
+            "views_avg": 3549998.118644068,
+            "views_median": 398900,
+            "views_p25": 46500,
+            "views_p75": 2800000,
+            "views_stddev": 9321682.94762924,
+            "n": 59,
+            "valid": true,
+            "views_skewness": 5.165917694930837
+          }
+        },
         "length_sweet_spot": {
           "0-15": {
             "views_avg": 2110169.4285714286,
@@ -1059,7 +1103,7 @@
       },
       "deep_analysis": {
         "incentive_throttle_ratio": {
-          "value": 0.6873634330291574,
+          "value": 1.4548344470305579,
           "n_organic": 23,
           "n_affiliate": 9,
           "organic_median_rer": 8.929936305732484,
@@ -1271,9 +1315,9 @@
         "pearson_r": 0.07394733682736417,
         "pearson_r_ci_lower": -0.1276577471635006,
         "pearson_r_ci_upper": 0.2755524208182289,
-        "p_value": 0.09451485415493403,
+        "p_value": 0.475,
         "sample_size": 96,
-        "statistical_significance": "High",
+        "statistical_significance": "Not Significant",
         "interpretation": "Negligible",
         "valid": true
       },
@@ -1507,6 +1551,7 @@
         "low_sample_metrics": [
           {
             "metric": "incentive_throttle_ratio",
+            "n": 9,
             "valid": false
           },
           {
@@ -1565,7 +1610,7 @@
             "valid": false
           }
         ],
-        "overall_quality_score": 0.7073170731707317,
+        "overall_quality_score": 0.7209302325581395,
         "notes": "Analysis on n=101. 12 flags found."
       }
     },
@@ -1765,6 +1810,28 @@
             "comments_skewness": 4.422648567154798
           }
         },
+        "sound_strategy": {
+          "voiceover_and_trending": {
+            "views_avg": 214762.5,
+            "views_median": 83500,
+            "views_p25": 31150,
+            "views_p75": 161400,
+            "views_stddev": 342611.9778171073,
+            "n": 8,
+            "valid": false,
+            "views_skewness": 2.5851735327148595
+          },
+          "voiceover_only": {
+            "views_avg": 2998172.6,
+            "views_median": 424900,
+            "views_p25": 38500,
+            "views_p75": 1800000,
+            "views_stddev": 10877990.733870579,
+            "n": 45,
+            "valid": true,
+            "views_skewness": 6.169798526391408
+          }
+        },
         "length_sweet_spot": {
           "0-15": {
             "views_avg": 1767318.1739130435,
@@ -1810,7 +1877,7 @@
       },
       "deep_analysis": {
         "incentive_throttle_ratio": {
-          "value": 1.5211862878171534,
+          "value": 0.6573816816577827,
           "n_organic": 33,
           "n_affiliate": 6,
           "organic_median_rer": 7.586854460093897,
@@ -2019,9 +2086,9 @@
         "pearson_r": 0.09499166511681033,
         "pearson_r_ci_lower": -0.1318234055071037,
         "pearson_r_ci_upper": 0.3218067357407244,
-        "p_value": 0.10381157565310103,
+        "p_value": 0.4156,
         "sample_size": 76,
-        "statistical_significance": "High",
+        "statistical_significance": "Not Significant",
         "interpretation": "Negligible",
         "valid": true
       },
@@ -2237,7 +2304,13 @@
         "validity_threshold_n": 10,
         "low_sample_metrics": [
           {
+            "metric": "sound.mix",
+            "n": 8,
+            "valid": false
+          },
+          {
             "metric": "incentive_throttle_ratio",
+            "n": 6,
             "valid": false
           },
           {
@@ -2296,8 +2369,8 @@
             "valid": false
           }
         ],
-        "overall_quality_score": 0.7,
-        "notes": "Analysis on n=81. 12 flags found."
+        "overall_quality_score": 0.6904761904761905,
+        "notes": "Analysis on n=81. 13 flags found."
       }
     },
     "2025-Q2": {
@@ -2495,6 +2568,28 @@
             "comments_skewness": 5.389203617894092
           }
         },
+        "sound_strategy": {
+          "voiceover_and_trending": {
+            "views_avg": 12837494.307692308,
+            "views_median": 692100,
+            "views_p25": 38800,
+            "views_p75": 8300000,
+            "views_stddev": 31332627.46811833,
+            "n": 13,
+            "valid": true,
+            "views_skewness": 3.3615548180371255
+          },
+          "voiceover_only": {
+            "views_avg": 2015152.64,
+            "views_median": 510750,
+            "views_p25": 102350,
+            "views_p75": 2375000,
+            "views_stddev": 3510552.1645875066,
+            "n": 50,
+            "valid": true,
+            "views_skewness": 3.038157726102102
+          }
+        },
         "length_sweet_spot": {
           "0-15": {
             "views_avg": 2961259.2083333335,
@@ -2540,7 +2635,7 @@
       },
       "deep_analysis": {
         "incentive_throttle_ratio": {
-          "value": 0.8992035812881266,
+          "value": 1.1120952149317296,
           "n_organic": 23,
           "n_affiliate": 6,
           "organic_median_rer": 5.162303664921466,
@@ -2763,9 +2858,9 @@
         "pearson_r": -0.1345756216444226,
         "pearson_r_ci_lower": -0.347756531494948,
         "pearson_r_ci_upper": 0.0786052882061028,
-        "p_value": 0.09386845330205067,
+        "p_value": 0.2202,
         "sample_size": 85,
-        "statistical_significance": "High",
+        "statistical_significance": "Not Significant",
         "interpretation": "Negligible",
         "valid": true
       },
@@ -2984,6 +3079,7 @@
         "low_sample_metrics": [
           {
             "metric": "incentive_throttle_ratio",
+            "n": 6,
             "valid": false
           },
           {
@@ -3052,7 +3148,7 @@
             "valid": false
           }
         ],
-        "overall_quality_score": 0.6585365853658537,
+        "overall_quality_score": 0.6744186046511628,
         "notes": "Analysis on n=85. 14 flags found."
       }
     }
