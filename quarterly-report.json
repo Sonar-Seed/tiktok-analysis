@@ -1,6 +1,6 @@
 {
   "report_config": {
-    "generated_at": "2026-04-03T09:23:05.479Z",
+    "generated_at": "2026-04-03T09:25:02.259Z",
     "validity_threshold_n": 10,
     "outlier_exclusion_method": "winsorize_3sigma",
     "rer_outlier_cap_applied": true,
@@ -11,49 +11,37 @@
     {
       "quarter_id": "2026-Q1",
       "n": 259,
-      "avg_share_rate": 5.805325822645955,
-      "median_share_rate": 2.356979405034325,
-      "avg_save_rate": 8.418198823555564,
-      "median_save_rate": 6.223776223776223,
       "avg_rer": 193.21507546192652,
       "median_rer": 3.6736898973527823,
-      "viral_velocity_growth_vs_prior_quarter": null,
+      "avg_svr": 0.8418198823555569,
+      "median_svr": 0.6223776223776224,
       "quarter_over_quarter_valid": false
     },
     {
       "quarter_id": "2025-Q4",
       "n": 101,
-      "avg_share_rate": 3.988682129239705,
-      "median_share_rate": 1.7375886524822697,
-      "avg_save_rate": 7.923679925839497,
-      "median_save_rate": 5.18,
       "avg_rer": 222.11301040887957,
       "median_rer": 11.702127659574469,
-      "viral_velocity_growth_vs_prior_quarter": -31.29270860766707,
+      "avg_svr": 0.79236799258395,
+      "median_svr": 0.518,
       "quarter_over_quarter_valid": true
     },
     {
       "quarter_id": "2025-Q3",
       "n": 81,
-      "avg_share_rate": 5.926753829463144,
-      "median_share_rate": 2.1375,
-      "avg_save_rate": 8.368123888001296,
-      "median_save_rate": 6.25,
       "avg_rer": 155.69822736867417,
       "median_rer": 15.030303030303031,
-      "viral_velocity_growth_vs_prior_quarter": 48.58927428726593,
+      "avg_svr": 0.8368123888001294,
+      "median_svr": 0.625,
       "quarter_over_quarter_valid": true
     },
     {
       "quarter_id": "2025-Q2",
       "n": 85,
-      "avg_share_rate": 3.905255773430725,
-      "median_share_rate": 3.199,
-      "avg_save_rate": 8.554171799203473,
-      "median_save_rate": 7.945945945945946,
       "avg_rer": 144.01242234971681,
       "median_rer": 9.971014492753623,
-      "viral_velocity_growth_vs_prior_quarter": -34.10801450843336,
+      "avg_svr": 0.8554171799203479,
+      "median_svr": 0.7945945945945946,
       "quarter_over_quarter_valid": true
     }
   ],
@@ -64,16 +52,16 @@
         "videos_enrichment_failed": 5,
         "enrichment_failure_rate_pct": 1.9305019305019304
       },
-      "efficiency_metrics": {
-        "avg_rer": 193.21507546192652,
-        "median_rer": 3.6736898973527823,
-        "avg_svr": 0.8418198823555569
-      },
       "data_quality": {
         "validity_threshold_n": 10,
         "low_sample_metrics": [],
         "overall_quality_score": 1,
-        "notes": "Sample size n=259."
+        "notes": "Analysis on n=259."
+      },
+      "efficiency_metrics": {
+        "avg_rer": 193.21507546192652,
+        "median_rer": 3.6736898973527823,
+        "conversion_intent_score": 77.57874015748031
       },
       "battle_comparisons": {
         "voiceover": {
@@ -84,7 +72,8 @@
             "views_p75": 937200,
             "views_stddev": 4371934.730535926,
             "n": 174,
-            "valid": true
+            "valid": true,
+            "views_skewness": 7.8402651856709005
           },
           "without_voiceover": {
             "views_avg": 1880400.7375,
@@ -93,7 +82,8 @@
             "views_p75": 1000000,
             "views_stddev": 6905594.424651175,
             "n": 80,
-            "valid": true
+            "valid": true,
+            "views_skewness": 5.766829902155899
           }
         },
         "face_presence": {
@@ -104,7 +94,8 @@
             "views_p75": 974625,
             "views_stddev": 5152506.567764465,
             "n": 146,
-            "valid": true
+            "valid": true,
+            "views_skewness": 6.8246838769956835
           },
           "without_face": {
             "views_avg": 1478048.111111111,
@@ -113,7 +104,74 @@
             "views_p75": 989500,
             "views_stddev": 5510578.5198797835,
             "n": 108,
-            "valid": true
+            "valid": true,
+            "views_skewness": 7.278664113151058
+          }
+        },
+        "honest_review_premium": {
+          "critical_balanced": {
+            "views_avg": 1064729.9090909092,
+            "views_median": 113950,
+            "views_p25": 3668,
+            "views_p75": 667950,
+            "views_stddev": 3189866.7095661517,
+            "n": 66,
+            "valid": true,
+            "views_skewness": 5.185824551393368
+          },
+          "raving_positive": {
+            "views_avg": 1607685.7365591398,
+            "views_median": 144850,
+            "views_p25": 7110.25,
+            "views_p75": 1000000,
+            "views_stddev": 5800913.044099018,
+            "n": 186,
+            "valid": true,
+            "views_skewness": 6.93982263015825
+          }
+        },
+        "pain_point_conversion": {
+          "with_pain_point": {
+            "views_avg": 878418.7142857143,
+            "views_median": 106900,
+            "views_p25": 5446,
+            "views_p75": 730300,
+            "views_stddev": 1879950.2017525695,
+            "n": 133,
+            "valid": true,
+            "views_skewness": 3.94528082754648
+          },
+          "without_pain_point": {
+            "views_avg": 2224905.223140496,
+            "views_median": 186400,
+            "views_p25": 7075,
+            "views_p75": 1100000,
+            "views_stddev": 7369269.777531589,
+            "n": 121,
+            "valid": true,
+            "views_skewness": 5.188109487829888
+          }
+        },
+        "sound_strategy": {
+          "voiceover_and_trending": {
+            "views_avg": 785368.6571428571,
+            "views_median": 115400,
+            "views_p25": 8291,
+            "views_p75": 739000,
+            "views_stddev": 1356541.2348537615,
+            "n": 35,
+            "valid": true,
+            "views_skewness": 2.0836643720902748
+          },
+          "voiceover_only": {
+            "views_avg": 1497289.6330935252,
+            "views_median": 114800,
+            "views_p25": 6124,
+            "views_p75": 1000000,
+            "views_stddev": 4833356.428186191,
+            "n": 139,
+            "valid": true,
+            "views_skewness": 7.185814289448832
           }
         }
       },
@@ -122,8 +180,7 @@
           "value": 0.0311654056990062,
           "n_organic": 62,
           "n_affiliate": 16,
-          "valid": true,
-          "validity_reason": null
+          "valid": true
         },
         "niche_performance": [
           {
@@ -225,106 +282,138 @@
             "valid": true,
             "rer_skewness": 4.90511215629671
           }
+        ],
+        "product_reveal_efficiency": {
+          "hook_reveal": {
+            "views_avg": 1793602.6785714286,
+            "views_median": 185000,
+            "views_p25": 7046.75,
+            "views_p75": 1225000,
+            "views_stddev": 5936891.519031406,
+            "n": 168,
+            "valid": true,
+            "views_skewness": 6.5536818006607005
+          },
+          "mid_reveal": {
+            "views_avg": 556436.9677419355,
+            "views_median": 29400,
+            "views_p25": 2530.5,
+            "views_p75": 315125,
+            "views_stddev": 1271706.7774997908,
+            "n": 62,
+            "valid": true,
+            "views_skewness": 2.761667963770325
+          },
+          "end_reveal": {
+            "views_avg": 538168.2857142857,
+            "views_median": 33300,
+            "views_p25": 6501.25,
+            "views_p75": 390525,
+            "views_stddev": 940754.8149160735,
+            "n": 14,
+            "valid": true,
+            "views_skewness": 1.9829847179467053
+          }
+        }
+      },
+      "seo_discoverability": {
+        "keyword_association_strength": [
+          {
+            "keyword": "ASMR Unboxing",
+            "frequency": 5,
+            "avg_rer": 208.50465385245587,
+            "valid": true
+          },
+          {
+            "keyword": "taco bell",
+            "frequency": 4,
+            "avg_rer": 1237.5204253967634,
+            "valid": false
+          },
+          {
+            "keyword": "dropshipping products",
+            "frequency": 3,
+            "avg_rer": 18.184002799913245,
+            "valid": false
+          },
+          {
+            "keyword": "Korean Skincare",
+            "frequency": 3,
+            "avg_rer": 156.95202199150683,
+            "valid": false
+          },
+          {
+            "keyword": "amazon finds",
+            "frequency": 2,
+            "avg_rer": 4.605518248175183,
+            "valid": false
+          },
+          {
+            "keyword": "trying taco bell",
+            "frequency": 2,
+            "avg_rer": 1206.1809576732785,
+            "valid": false
+          },
+          {
+            "keyword": "dropshipping",
+            "frequency": 2,
+            "avg_rer": 17.33581931678123,
+            "valid": false
+          },
+          {
+            "keyword": "Keyboard",
+            "frequency": 2,
+            "avg_rer": 249.04065624096722,
+            "valid": false
+          },
+          {
+            "keyword": "trying foods in car",
+            "frequency": 2,
+            "avg_rer": 405.3340324578236,
+            "valid": false
+          },
+          {
+            "keyword": "fragrance",
+            "frequency": 2,
+            "avg_rer": 42.53360655737705,
+            "valid": false
+          },
+          {
+            "keyword": "Sephora Haul",
+            "frequency": 2,
+            "avg_rer": 1.2194720952677212,
+            "valid": false
+          },
+          {
+            "keyword": "Dumplings",
+            "frequency": 2,
+            "avg_rer": 23.492733970529667,
+            "valid": false
+          },
+          {
+            "keyword": "fidgets",
+            "frequency": 2,
+            "avg_rer": 620.0004593582765,
+            "valid": false
+          },
+          {
+            "keyword": "loreal paris",
+            "frequency": 1,
+            "avg_rer": 0.31309041835357626,
+            "valid": false
+          },
+          {
+            "keyword": "pr haul unboxing",
+            "frequency": 1,
+            "avg_rer": 6.303915063039151,
+            "valid": false
+          }
         ]
       },
-      "hook_to_rer_impact": [
-        {
-          "hook": "Problem-Solution",
-          "rer_avg": 482.394008913579,
-          "rer_median": 29.280155642023345,
-          "rer_p25": 1.3399209486166008,
-          "rer_p75": 342.0138888888889,
-          "rer_stddev": 960.5735272434613,
-          "n": 33,
-          "valid": true,
-          "rer_skewness": 2.4934684341536797,
-          "avg_svr": 0.5266168665980434,
-          "median_svr": 0.36596523330283626
-        },
-        {
-          "hook": "B-Roll-Product",
-          "rer_avg": 227.1711684653416,
-          "rer_median": 11.589916503297932,
-          "rer_p25": 2.2219056185076784,
-          "rer_p75": 77.74856304268069,
-          "rer_stddev": 511.9658428583836,
-          "n": 28,
-          "valid": true,
-          "rer_skewness": 2.5878802322935233,
-          "avg_svr": 0.953807216286177,
-          "median_svr": 0.6432727272727272
-        },
-        {
-          "hook": "POV",
-          "rer_avg": 164.4193010275082,
-          "rer_median": 8.635036496350365,
-          "rer_p25": 2.7210884353741496,
-          "rer_p75": 185.5287569573284,
-          "rer_stddev": 315.4107227486215,
-          "n": 53,
-          "valid": true,
-          "rer_skewness": 2.9963629167056696,
-          "avg_svr": 0.8318078153890895,
-          "median_svr": 0.6387
-        },
-        {
-          "hook": "Text-Only",
-          "rer_avg": 378.8186271274915,
-          "rer_median": 8.621654501216545,
-          "rer_p25": 0.22687533729087966,
-          "rer_p75": 276,
-          "rer_stddev": 624.1644335344103,
-          "n": 5,
-          "valid": false,
-          "rer_skewness": 2.0864855125521524,
-          "avg_svr": 0.8668706112546556,
-          "median_svr": 0.7136060894386299
-        },
-        {
-          "hook": "ASMR-Unboxing",
-          "rer_avg": 195.99328122084322,
-          "rer_median": 3.1994668456555226,
-          "rer_p25": 0.537432682986513,
-          "rer_p75": 25.516736180771872,
-          "rer_stddev": 894.301382647086,
-          "n": 42,
-          "valid": true,
-          "rer_skewness": 6.189582318874097,
-          "avg_svr": 0.8952064114721494,
-          "median_svr": 0.654742835086365
-        },
-        {
-          "hook": "Talking-Head",
-          "rer_avg": 102.14186188117327,
-          "rer_median": 1.3537735849056605,
-          "rer_p25": 0.27927927927927926,
-          "rer_p75": 7.4,
-          "rer_stddev": 361.8693700061993,
-          "n": 85,
-          "valid": true,
-          "rer_skewness": 4.4719515925980025,
-          "avg_svr": 0.8895360364712153,
-          "median_svr": 0.6568758344459279
-        },
-        {
-          "hook": "Other",
-          "rer_avg": 20.101514010186886,
-          "rer_median": 0.30524214651720405,
-          "rer_p25": 0.21281705342687535,
-          "rer_p75": 1.2392572854830006,
-          "rer_stddev": 51.31947574213287,
-          "n": 8,
-          "valid": false,
-          "rer_skewness": 2.8260167530716918,
-          "avg_svr": 1.0102767045641976,
-          "median_svr": 1.1822483709090656
-        }
-      ],
       "duration_correlation": {
         "pearson_r": -0.03246945219808033,
         "sample_size": 237,
-        "statistical_significance": "Emerging",
-        "interpretation": "Weak linear relationship"
+        "statistical_significance": "High"
       },
       "by_creator_tier": {
         "Nano": {
@@ -336,16 +425,7 @@
           "rer_stddev": 803.8072365556404,
           "n": 123,
           "valid": true,
-          "rer_skewness": 4.15456141436185,
-          "viral_velocity_avg": 0.79084874278423,
-          "viral_velocity_median": 0.2518891687657431,
-          "viral_velocity_p25": 0.07976304046581616,
-          "viral_velocity_p75": 0.6489905404636879,
-          "viral_velocity_stddev": 2.536884899550119,
-          "viral_velocity_skewness": 8.806743058309051,
-          "avg_save_rate": 0.8603542650301644,
-          "median_save_rate": 0.5847953216374269,
-          "stddev_save_rate": 0.8095574474961496
+          "rer_skewness": 4.15456141436185
         },
         "Micro": {
           "count": 75,
@@ -356,16 +436,7 @@
           "rer_stddev": 345.06190242746385,
           "n": 75,
           "valid": true,
-          "rer_skewness": 4.340403538963239,
-          "viral_velocity_avg": 0.3683913503638337,
-          "viral_velocity_median": 0.2356979405034325,
-          "viral_velocity_p25": 0.09486263810166658,
-          "viral_velocity_p75": 0.4847896488748266,
-          "viral_velocity_stddev": 0.5037344859575753,
-          "viral_velocity_skewness": 4.260629033449497,
-          "avg_save_rate": 0.903361042948663,
-          "median_save_rate": 0.6635658914728683,
-          "stddev_save_rate": 0.8466846871914263
+          "rer_skewness": 4.340403538963239
         },
         "Macro": {
           "count": 39,
@@ -376,16 +447,7 @@
           "rer_stddev": 31.97252352964051,
           "n": 39,
           "valid": true,
-          "rer_skewness": 6.099231131537091,
-          "viral_velocity_avg": 0.41551343990692213,
-          "viral_velocity_median": 0.1781875,
-          "viral_velocity_p25": 0.09317009631026188,
-          "viral_velocity_p75": 0.39701515151515154,
-          "viral_velocity_stddev": 0.9295505730356153,
-          "viral_velocity_skewness": 5.4526952021924435,
-          "avg_save_rate": 0.6482919829822555,
-          "median_save_rate": 0.3898176291793313,
-          "stddev_save_rate": 0.6043132451285981
+          "rer_skewness": 6.099231131537091
         },
         "Mega": {
           "count": 22,
@@ -396,16 +458,7 @@
           "rer_stddev": 2.3839047939576052,
           "n": 22,
           "valid": true,
-          "rer_skewness": 2.527299522385016,
-          "viral_velocity_avg": 0.42041672774602074,
-          "viral_velocity_median": 0.2014091360476663,
-          "viral_velocity_p25": 0.09740591397849462,
-          "viral_velocity_p75": 0.3374180424528302,
-          "viral_velocity_stddev": 0.8057527371166883,
-          "viral_velocity_skewness": 4.189445357944284,
-          "avg_save_rate": 0.8714686079055148,
-          "median_save_rate": 0.6712159090909091,
-          "stddev_save_rate": 0.9105566843131002
+          "rer_skewness": 2.527299522385016
         }
       }
     },
@@ -415,27 +468,27 @@
         "videos_enrichment_failed": 2,
         "enrichment_failure_rate_pct": 1.9801980198019802
       },
-      "efficiency_metrics": {
-        "avg_rer": 222.11301040887957,
-        "median_rer": 11.702127659574469,
-        "avg_svr": 0.79236799258395
-      },
       "data_quality": {
         "validity_threshold_n": 10,
         "low_sample_metrics": [
           {
-            "metric": "by_creator_tier.Mega",
-            "n": 8,
-            "valid": false
-          },
-          {
             "metric": "incentive_throttle_ratio",
             "n": 9,
             "valid": false
+          },
+          {
+            "metric": "reveal.end",
+            "n": 5,
+            "valid": false
           }
         ],
-        "overall_quality_score": 0.95,
-        "notes": "Sample size n=101."
+        "overall_quality_score": 1,
+        "notes": "Analysis on n=101."
+      },
+      "efficiency_metrics": {
+        "avg_rer": 222.11301040887957,
+        "median_rer": 11.702127659574469,
+        "conversion_intent_score": 76.0204081632653
       },
       "battle_comparisons": {
         "voiceover": {
@@ -446,7 +499,8 @@
             "views_p75": 2300000,
             "views_stddev": 8623193.752327977,
             "n": 71,
-            "valid": true
+            "valid": true,
+            "views_skewness": 5.523064062855534
           },
           "without_voiceover": {
             "views_avg": 1816189.111111111,
@@ -455,7 +509,8 @@
             "views_p75": 1900000,
             "views_stddev": 3012950.411326958,
             "n": 27,
-            "valid": true
+            "valid": true,
+            "views_skewness": 2.276596215389398
           }
         },
         "face_presence": {
@@ -466,7 +521,8 @@
             "views_p75": 1047800,
             "views_stddev": 9041661.033445088,
             "n": 62,
-            "valid": true
+            "valid": true,
+            "views_skewness": 5.554315173208833
           },
           "without_face": {
             "views_avg": 2585875.222222222,
@@ -475,7 +531,74 @@
             "views_p75": 2750000,
             "views_stddev": 3691034.535666571,
             "n": 36,
-            "valid": true
+            "valid": true,
+            "views_skewness": 1.6746610465537266
+          }
+        },
+        "honest_review_premium": {
+          "critical_balanced": {
+            "views_avg": 2669387.5555555555,
+            "views_median": 478700,
+            "views_p25": 107350,
+            "views_p75": 2350000,
+            "views_stddev": 4331644.65899379,
+            "n": 27,
+            "valid": true,
+            "views_skewness": 1.943740335794165
+          },
+          "raving_positive": {
+            "views_avg": 2999540.5735294116,
+            "views_median": 385200,
+            "views_p25": 46650,
+            "views_p75": 2025000,
+            "views_stddev": 8601147.51707379,
+            "n": 68,
+            "valid": true,
+            "views_skewness": 5.826826263784204
+          }
+        },
+        "pain_point_conversion": {
+          "with_pain_point": {
+            "views_avg": 2553392.862745098,
+            "views_median": 458500,
+            "views_p25": 61000,
+            "views_p75": 2450000,
+            "views_stddev": 4917357.811048036,
+            "n": 51,
+            "valid": true,
+            "views_skewness": 2.854802227730929
+          },
+          "without_pain_point": {
+            "views_avg": 3109203.7021276597,
+            "views_median": 301300,
+            "views_p25": 55650,
+            "views_p75": 1400000,
+            "views_stddev": 9588797.619848447,
+            "n": 47,
+            "valid": true,
+            "views_skewness": 5.820279259339662
+          }
+        },
+        "sound_strategy": {
+          "voiceover_and_trending": {
+            "views_avg": 1489051.25,
+            "views_median": 351400,
+            "views_p25": 168250,
+            "views_p75": 487075,
+            "views_stddev": 3033623.070438743,
+            "n": 12,
+            "valid": true,
+            "views_skewness": 2.786052967923613
+          },
+          "voiceover_only": {
+            "views_avg": 3549998.118644068,
+            "views_median": 398900,
+            "views_p25": 46500,
+            "views_p75": 2800000,
+            "views_stddev": 9321682.94762924,
+            "n": 59,
+            "valid": true,
+            "views_skewness": 5.165917694930837
           }
         }
       },
@@ -484,8 +607,7 @@
           "value": 0.6873634330291574,
           "n_organic": 23,
           "n_affiliate": 9,
-          "valid": false,
-          "validity_reason": "Sample size below threshold"
+          "valid": false
         },
         "niche_performance": [
           {
@@ -565,93 +687,138 @@
             "valid": false,
             "rer_skewness": 2.8276040449748097
           }
+        ],
+        "product_reveal_efficiency": {
+          "hook_reveal": {
+            "views_avg": 3591120.782608696,
+            "views_median": 519000,
+            "views_p25": 118300,
+            "views_p75": 3000000,
+            "views_stddev": 8670560.0947053,
+            "n": 69,
+            "valid": true,
+            "views_skewness": 5.444214483468404
+          },
+          "mid_reveal": {
+            "views_avg": 1045718.7272727273,
+            "views_median": 90400,
+            "views_p25": 31750,
+            "views_p75": 423950,
+            "views_stddev": 3153501.26065504,
+            "n": 22,
+            "valid": true,
+            "views_skewness": 4.40294200588811
+          },
+          "end_reveal": {
+            "views_avg": 1108160,
+            "views_median": 226700,
+            "views_p25": 200300,
+            "views_p75": 484700,
+            "views_stddev": 1751981.789403075,
+            "n": 5,
+            "valid": false,
+            "views_skewness": 2.1979181897092355
+          }
+        }
+      },
+      "seo_discoverability": {
+        "keyword_association_strength": [
+          {
+            "keyword": "Shoes",
+            "frequency": 2,
+            "avg_rer": 276.2248844450273,
+            "valid": false
+          },
+          {
+            "keyword": "aelfric eden",
+            "frequency": 1,
+            "avg_rer": 12.99157894736842,
+            "valid": false
+          },
+          {
+            "keyword": "shopping haul",
+            "frequency": 1,
+            "avg_rer": 11,
+            "valid": false
+          },
+          {
+            "keyword": "Haul",
+            "frequency": 1,
+            "avg_rer": 11,
+            "valid": false
+          },
+          {
+            "keyword": "sheglam cushion foundation",
+            "frequency": 1,
+            "avg_rer": 24.364406779661017,
+            "valid": false
+          },
+          {
+            "keyword": "sheglam foundation",
+            "frequency": 1,
+            "avg_rer": 24.364406779661017,
+            "valid": false
+          },
+          {
+            "keyword": "cushion foundation",
+            "frequency": 1,
+            "avg_rer": 24.364406779661017,
+            "valid": false
+          },
+          {
+            "keyword": "sheglam make up",
+            "frequency": 1,
+            "avg_rer": 24.364406779661017,
+            "valid": false
+          },
+          {
+            "keyword": "Foundation",
+            "frequency": 1,
+            "avg_rer": 24.364406779661017,
+            "valid": false
+          },
+          {
+            "keyword": "sheglam lock and go",
+            "frequency": 1,
+            "avg_rer": 24.364406779661017,
+            "valid": false
+          },
+          {
+            "keyword": "body relaxer massager",
+            "frequency": 1,
+            "avg_rer": 715.5138339920949,
+            "valid": false
+          },
+          {
+            "keyword": "highlighter",
+            "frequency": 1,
+            "avg_rer": 61.67400881057269,
+            "valid": false
+          },
+          {
+            "keyword": "Water Bottle",
+            "frequency": 1,
+            "avg_rer": 0.5137211855104281,
+            "valid": false
+          },
+          {
+            "keyword": "fixing slime",
+            "frequency": 1,
+            "avg_rer": 10.846153846153847,
+            "valid": false
+          },
+          {
+            "keyword": "slimes asmr",
+            "frequency": 1,
+            "avg_rer": 10.846153846153847,
+            "valid": false
+          }
         ]
       },
-      "hook_to_rer_impact": [
-        {
-          "hook": "Problem-Solution",
-          "rer_avg": 407.74821286651996,
-          "rer_median": 199.97647612326512,
-          "rer_p25": 26.42123638841477,
-          "rer_p75": 566.4553831372424,
-          "rer_stddev": 500.25240561494155,
-          "n": 14,
-          "valid": true,
-          "rer_skewness": 1.5669940183388407,
-          "avg_svr": 0.41490214270496834,
-          "median_svr": 0.2281807662292229
-        },
-        {
-          "hook": "POV",
-          "rer_avg": 467.3893770896237,
-          "rer_median": 53.775322283609576,
-          "rer_p25": 3.3127807616616884,
-          "rer_p75": 589.6672429617297,
-          "rer_stddev": 906.0744486791693,
-          "n": 23,
-          "valid": true,
-          "rer_skewness": 3.2657544556200326,
-          "avg_svr": 0.6366970403814619,
-          "median_svr": 0.48648648648648646
-        },
-        {
-          "hook": "ASMR-Unboxing",
-          "rer_avg": 137.03331372549886,
-          "rer_median": 20.920827244824473,
-          "rer_p25": 3.997336504958456,
-          "rer_p75": 69.53031480761757,
-          "rer_stddev": 255.55540247050715,
-          "n": 14,
-          "valid": true,
-          "rer_skewness": 2.1622224813644753,
-          "avg_svr": 0.7765462362532226,
-          "median_svr": 0.6619488484873701
-        },
-        {
-          "hook": "Other",
-          "rer_avg": 29.448366179652027,
-          "rer_median": 7.368111419254564,
-          "rer_p25": 0.892911458431626,
-          "rer_p75": 36.58122807017544,
-          "rer_stddev": 42.05015644079933,
-          "n": 6,
-          "valid": false,
-          "rer_skewness": 1.8320691482856002,
-          "avg_svr": 1.1531629397153884,
-          "median_svr": 1.1089806983109554
-        },
-        {
-          "hook": "Talking-Head",
-          "rer_avg": 67.12203773183538,
-          "rer_median": 5.472835746830874,
-          "rer_p25": 1.7848167966458746,
-          "rer_p75": 17.582940251572328,
-          "rer_stddev": 220.9325203891711,
-          "n": 32,
-          "valid": true,
-          "rer_skewness": 4.83304296279553,
-          "avg_svr": 1.0324282669291058,
-          "median_svr": 0.546882318937933
-        },
-        {
-          "hook": "B-Roll-Product",
-          "rer_avg": 186.61426497316086,
-          "rer_median": 5.247058823529412,
-          "rer_p25": 0.8169059011164275,
-          "rer_p75": 18.121951219512194,
-          "rer_stddev": 342.36243833781066,
-          "n": 9,
-          "valid": false,
-          "rer_skewness": 1.7085381295712587,
-          "avg_svr": 0.8744896139579164,
-          "median_svr": 0.519650655021834
-        }
-      ],
       "duration_correlation": {
         "pearson_r": 0.07394733682736417,
         "sample_size": 96,
-        "statistical_significance": "Emerging",
-        "interpretation": "Weak linear relationship"
+        "statistical_significance": "High"
       },
       "by_creator_tier": {
         "Nano": {
@@ -663,16 +830,7 @@
           "rer_stddev": 762.7111443808478,
           "n": 40,
           "valid": true,
-          "rer_skewness": 3.057266097566698,
-          "viral_velocity_avg": 0.5286189021359948,
-          "viral_velocity_median": 0.17544659038839003,
-          "viral_velocity_p25": 0.09923029288119037,
-          "viral_velocity_p75": 0.3552702484237754,
-          "viral_velocity_stddev": 1.1624628278136542,
-          "viral_velocity_skewness": 4.785011432862938,
-          "avg_save_rate": 0.7588703040315747,
-          "median_save_rate": 0.4779432432432432,
-          "stddev_save_rate": 0.9132693571232927
+          "rer_skewness": 3.057266097566698
         },
         "Micro": {
           "count": 36,
@@ -683,16 +841,7 @@
           "rer_stddev": 122.6042471889349,
           "n": 36,
           "valid": true,
-          "rer_skewness": 3.5954793536476424,
-          "viral_velocity_avg": 0.3492827329267685,
-          "viral_velocity_median": 0.16917983313154078,
-          "viral_velocity_p25": 0.08361669268809221,
-          "viral_velocity_p75": 0.4934347703578473,
-          "viral_velocity_stddev": 0.436109529590214,
-          "viral_velocity_skewness": 2.078400769136514,
-          "avg_save_rate": 0.7902365350692562,
-          "median_save_rate": 0.5910339683454273,
-          "stddev_save_rate": 0.7400759635538428
+          "rer_skewness": 3.5954793536476424
         },
         "Macro": {
           "count": 16,
@@ -703,16 +852,7 @@
           "rer_stddev": 29.700377610078437,
           "n": 16,
           "valid": true,
-          "rer_skewness": 1.1274135810327088,
-          "viral_velocity_avg": 0.33377335957416654,
-          "viral_velocity_median": 0.18216340070996997,
-          "viral_velocity_p25": 0.05321312063457686,
-          "viral_velocity_p75": 0.4003176016855966,
-          "viral_velocity_stddev": 0.39922122924661013,
-          "viral_velocity_skewness": 2.387246723338821,
-          "avg_save_rate": 1.1097029924869917,
-          "median_save_rate": 0.6364302381166129,
-          "stddev_save_rate": 1.1206847318765283
+          "rer_skewness": 1.1274135810327088
         },
         "Mega": {
           "count": 8,
@@ -723,16 +863,7 @@
           "rer_stddev": 8.977270946859234,
           "n": 8,
           "valid": false,
-          "rer_skewness": 2.185346453340122,
-          "viral_velocity_avg": 0.15329766016636226,
-          "viral_velocity_median": 0.09997348484848484,
-          "viral_velocity_p25": 0.06709386314889022,
-          "viral_velocity_p75": 0.17995150187734668,
-          "viral_velocity_stddev": 0.13915158752103307,
-          "viral_velocity_skewness": 2.0733286590535114,
-          "avg_save_rate": 0.43382399342885825,
-          "median_save_rate": 0.37925072533849125,
-          "stddev_save_rate": 0.23844917308696853
+          "rer_skewness": 2.185346453340122
         }
       }
     },
@@ -742,27 +873,32 @@
         "videos_enrichment_failed": 1,
         "enrichment_failure_rate_pct": 1.2345679012345678
       },
-      "efficiency_metrics": {
-        "avg_rer": 155.69822736867417,
-        "median_rer": 15.030303030303031,
-        "avg_svr": 0.8368123888001294
-      },
       "data_quality": {
         "validity_threshold_n": 10,
         "low_sample_metrics": [
           {
-            "metric": "by_creator_tier.Mega",
-            "n": 5,
+            "metric": "sound.mix",
+            "n": 8,
             "valid": false
           },
           {
             "metric": "incentive_throttle_ratio",
             "n": 6,
             "valid": false
+          },
+          {
+            "metric": "reveal.end",
+            "n": 3,
+            "valid": false
           }
         ],
-        "overall_quality_score": 0.95,
-        "notes": "Sample size n=81."
+        "overall_quality_score": 1,
+        "notes": "Analysis on n=81."
+      },
+      "efficiency_metrics": {
+        "avg_rer": 155.69822736867417,
+        "median_rer": 15.030303030303031,
+        "conversion_intent_score": 75.5
       },
       "battle_comparisons": {
         "voiceover": {
@@ -773,7 +909,8 @@
             "views_p75": 1500000,
             "views_stddev": 10073731.41919556,
             "n": 53,
-            "valid": true
+            "valid": true,
+            "views_skewness": 6.6867230445308365
           },
           "without_voiceover": {
             "views_avg": 2414329.5185185187,
@@ -782,7 +919,8 @@
             "views_p75": 2100000,
             "views_stddev": 4435052.177593508,
             "n": 27,
-            "valid": true
+            "valid": true,
+            "views_skewness": 2.8181725327053844
           }
         },
         "face_presence": {
@@ -793,7 +931,8 @@
             "views_p75": 2400000,
             "views_stddev": 12096498.136040997,
             "n": 37,
-            "valid": true
+            "valid": true,
+            "views_skewness": 5.34650766311557
           },
           "without_face": {
             "views_avg": 1445503.046511628,
@@ -802,7 +941,74 @@
             "views_p75": 1450000,
             "views_stddev": 3004148.5385161615,
             "n": 43,
-            "valid": true
+            "valid": true,
+            "views_skewness": 3.601908229462662
+          }
+        },
+        "honest_review_premium": {
+          "critical_balanced": {
+            "views_avg": 1926784.6153846155,
+            "views_median": 1100000,
+            "views_p25": 170000,
+            "views_p75": 2600000,
+            "views_stddev": 2484294.6632011,
+            "n": 13,
+            "valid": true,
+            "views_skewness": 1.6839043445235795
+          },
+          "raving_positive": {
+            "views_avg": 2603561.186440678,
+            "views_median": 202800,
+            "views_p25": 16350,
+            "views_p75": 1450000,
+            "views_stddev": 9795476.156172872,
+            "n": 59,
+            "valid": true,
+            "views_skewness": 6.586809101645645
+          }
+        },
+        "pain_point_conversion": {
+          "with_pain_point": {
+            "views_avg": 4867097.785714285,
+            "views_median": 459150,
+            "views_p25": 37925,
+            "views_p75": 2450000,
+            "views_stddev": 13862534.739238238,
+            "n": 28,
+            "valid": true,
+            "views_skewness": 4.529221909706913
+          },
+          "without_pain_point": {
+            "views_avg": 1260462.0384615385,
+            "views_median": 342200,
+            "views_p25": 51975,
+            "views_p75": 1575000,
+            "views_stddev": 2371731.2922956073,
+            "n": 52,
+            "valid": true,
+            "views_skewness": 3.6891242385471847
+          }
+        },
+        "sound_strategy": {
+          "voiceover_and_trending": {
+            "views_avg": 214762.5,
+            "views_median": 83500,
+            "views_p25": 31150,
+            "views_p75": 161400,
+            "views_stddev": 342611.9778171073,
+            "n": 8,
+            "valid": false,
+            "views_skewness": 2.5851735327148595
+          },
+          "voiceover_only": {
+            "views_avg": 2998172.6,
+            "views_median": 424900,
+            "views_p25": 38500,
+            "views_p75": 1800000,
+            "views_stddev": 10877990.733870579,
+            "n": 45,
+            "valid": true,
+            "views_skewness": 6.169798526391408
           }
         }
       },
@@ -811,8 +1017,7 @@
           "value": 1.5211862878171534,
           "n_organic": 33,
           "n_affiliate": 6,
-          "valid": false,
-          "validity_reason": "Sample size below threshold"
+          "valid": false
         },
         "niche_performance": [
           {
@@ -823,8 +1028,7 @@
             "rer_p75": 236.55707169721876,
             "rer_stddev": 157.24889290919285,
             "n": 2,
-            "valid": false,
-            "rer_skewness": 0
+            "valid": false
           },
           {
             "niche": "Tech",
@@ -867,8 +1071,7 @@
             "rer_p75": 15.030303030303031,
             "rer_stddev": 0,
             "n": 1,
-            "valid": false,
-            "rer_skewness": 0
+            "valid": false
           },
           {
             "niche": "Fashion",
@@ -889,8 +1092,7 @@
             "rer_p75": 10.033444816053512,
             "rer_stddev": 0,
             "n": 1,
-            "valid": false,
-            "rer_skewness": 0
+            "valid": false
           },
           {
             "niche": "Beauty",
@@ -903,93 +1105,138 @@
             "valid": true,
             "rer_skewness": 2.6111439483623555
           }
+        ],
+        "product_reveal_efficiency": {
+          "hook_reveal": {
+            "views_avg": 1952117.6727272726,
+            "views_median": 476100,
+            "views_p25": 74850,
+            "views_p75": 2000000,
+            "views_stddev": 3772206.6605369914,
+            "n": 55,
+            "valid": true,
+            "views_skewness": 3.0874886180960286
+          },
+          "mid_reveal": {
+            "views_avg": 5071865.444444444,
+            "views_median": 133750,
+            "views_p25": 16175,
+            "views_p75": 1475000,
+            "views_stddev": 16598797.586488266,
+            "n": 18,
+            "valid": true,
+            "views_skewness": 4.160745338917546
+          },
+          "end_reveal": {
+            "views_avg": 299018,
+            "views_median": 202800,
+            "views_p25": 102977,
+            "views_p75": 446950,
+            "views_stddev": 288976.18399215303,
+            "n": 3,
+            "valid": false,
+            "views_skewness": 1.1329606455180763
+          }
+        }
+      },
+      "seo_discoverability": {
+        "keyword_association_strength": [
+          {
+            "keyword": "ASMR Unboxing",
+            "frequency": 3,
+            "avg_rer": 21.232735060014523,
+            "valid": false
+          },
+          {
+            "keyword": "shopkins unboxing",
+            "frequency": 2,
+            "avg_rer": 130.2904641575556,
+            "valid": false
+          },
+          {
+            "keyword": "amz girl lash kit",
+            "frequency": 1,
+            "avg_rer": 0.17483030636580443,
+            "valid": false
+          },
+          {
+            "keyword": "pr package",
+            "frequency": 1,
+            "avg_rer": 1.5454545454545454,
+            "valid": false
+          },
+          {
+            "keyword": "pr unboxing haul",
+            "frequency": 1,
+            "avg_rer": 1.5454545454545454,
+            "valid": false
+          },
+          {
+            "keyword": "Hair Products",
+            "frequency": 1,
+            "avg_rer": 2,
+            "valid": false
+          },
+          {
+            "keyword": "hair care",
+            "frequency": 1,
+            "avg_rer": 2,
+            "valid": false
+          },
+          {
+            "keyword": "medicube toner pads",
+            "frequency": 1,
+            "avg_rer": 85.27131782945736,
+            "valid": false
+          },
+          {
+            "keyword": "toner pads",
+            "frequency": 1,
+            "avg_rer": 85.27131782945736,
+            "valid": false
+          },
+          {
+            "keyword": "mini washer",
+            "frequency": 1,
+            "avg_rer": 568.5483870967741,
+            "valid": false
+          },
+          {
+            "keyword": "mini washing machine",
+            "frequency": 1,
+            "avg_rer": 568.5483870967741,
+            "valid": false
+          },
+          {
+            "keyword": "Eyebrow Tutorial",
+            "frequency": 1,
+            "avg_rer": 301.941346551012,
+            "valid": false
+          },
+          {
+            "keyword": "loreal paris",
+            "frequency": 1,
+            "avg_rer": 301.941346551012,
+            "valid": false
+          },
+          {
+            "keyword": "brows",
+            "frequency": 1,
+            "avg_rer": 301.941346551012,
+            "valid": false
+          },
+          {
+            "keyword": "magic sword",
+            "frequency": 1,
+            "avg_rer": 1545.39600772698,
+            "valid": false
+          }
         ]
       },
-      "hook_to_rer_impact": [
-        {
-          "hook": "Problem-Solution",
-          "rer_avg": 296.91781294990034,
-          "rer_median": 308.5614323514136,
-          "rer_p25": 226.95600991325898,
-          "rer_p75": 378.5232353880549,
-          "rer_stddev": 200.69783508053635,
-          "n": 4,
-          "valid": false,
-          "rer_skewness": -0.3001156150137515,
-          "avg_svr": 0.5845488598526046,
-          "median_svr": 0.2975153680472684
-        },
-        {
-          "hook": "B-Roll-Product",
-          "rer_avg": 165.42002234617868,
-          "rer_median": 146.96831850188119,
-          "rer_p25": 76.66158139427836,
-          "rer_p75": 235.7267594537815,
-          "rer_stddev": 94.7148935320236,
-          "n": 4,
-          "valid": false,
-          "rer_skewness": 0.44101170174980486,
-          "avg_svr": 0.7541034528935653,
-          "median_svr": 0.725819355545008
-        },
-        {
-          "hook": "POV",
-          "rer_avg": 343.1612975600488,
-          "rer_median": 57.17111280067876,
-          "rer_p25": 12.646952078928823,
-          "rer_p75": 110.98986417309399,
-          "rer_stddev": 680.4299310627218,
-          "n": 22,
-          "valid": true,
-          "rer_skewness": 2.7192348807246054,
-          "avg_svr": 1.0855337106931933,
-          "median_svr": 0.894864429423793
-        },
-        {
-          "hook": "ASMR-Unboxing",
-          "rer_avg": 116.49596308478931,
-          "rer_median": 22.362418242418805,
-          "rer_p25": 6.260904248791144,
-          "rer_p75": 107.27165354330708,
-          "rer_stddev": 202.15779918519232,
-          "n": 20,
-          "valid": true,
-          "rer_skewness": 2.3025657567555093,
-          "avg_svr": 0.9571674843462846,
-          "median_svr": 0.9620779081286244
-        },
-        {
-          "hook": "Other",
-          "rer_avg": 86.50386850864108,
-          "rer_median": 8.222619047619048,
-          "rer_p25": 4.588493944181148,
-          "rer_p75": 90.13799361207897,
-          "rer_stddev": 138.31523532804925,
-          "n": 4,
-          "valid": false,
-          "rer_skewness": 1.9971774060311323,
-          "avg_svr": 0.3521356092745959,
-          "median_svr": 0.13622383231111412
-        },
-        {
-          "hook": "Talking-Head",
-          "rer_avg": 20.581481125798895,
-          "rer_median": 1.5103018254111693,
-          "rer_p25": 0.5563085135921073,
-          "rer_p75": 8.782613732522062,
-          "rer_stddev": 48.257262304011,
-          "n": 26,
-          "valid": true,
-          "rer_skewness": 3.6281798297107124,
-          "avg_svr": 0.6899866202598582,
-          "median_svr": 0.54832308628409
-        }
-      ],
       "duration_correlation": {
         "pearson_r": 0.09499166511681033,
         "sample_size": 76,
-        "statistical_significance": "Emerging",
-        "interpretation": "Weak linear relationship"
+        "statistical_significance": "High"
       },
       "by_creator_tier": {
         "Nano": {
@@ -1001,16 +1248,7 @@
           "rer_stddev": 579.2224499125568,
           "n": 32,
           "valid": true,
-          "rer_skewness": 3.1739969086454884,
-          "viral_velocity_avg": 0.4692540046150859,
-          "viral_velocity_median": 0.23455429292929295,
-          "viral_velocity_p25": 0.07422033701561262,
-          "viral_velocity_p75": 0.559632966493702,
-          "viral_velocity_stddev": 0.5791846004100132,
-          "viral_velocity_skewness": 1.892154340484164,
-          "avg_save_rate": 0.7536510998160967,
-          "median_save_rate": 0.512412356321839,
-          "stddev_save_rate": 0.6483326272659874
+          "rer_skewness": 3.1739969086454884
         },
         "Micro": {
           "count": 31,
@@ -1021,16 +1259,7 @@
           "rer_stddev": 157.7001295934612,
           "n": 31,
           "valid": true,
-          "rer_skewness": 2.8609513939812303,
-          "viral_velocity_avg": 0.7736028007664109,
-          "viral_velocity_median": 0.2519723865877712,
-          "viral_velocity_p25": 0.09077276130578017,
-          "viral_velocity_p75": 0.5014649196676949,
-          "viral_velocity_stddev": 1.5070233570587859,
-          "viral_velocity_skewness": 2.7245174769770855,
-          "avg_save_rate": 0.9818551356328571,
-          "median_save_rate": 0.7819548872180452,
-          "stddev_save_rate": 0.827212278249355
+          "rer_skewness": 2.8609513939812303
         },
         "Macro": {
           "count": 13,
@@ -1041,16 +1270,7 @@
           "rer_stddev": 79.0883542337505,
           "n": 13,
           "valid": true,
-          "rer_skewness": 3.4667728672839084,
-          "viral_velocity_avg": 0.6597477131518639,
-          "viral_velocity_median": 0.19337748344370861,
-          "viral_velocity_p25": 0.046030303030303026,
-          "viral_velocity_p75": 0.3501742160278746,
-          "viral_velocity_stddev": 1.1290370857333283,
-          "viral_velocity_skewness": 2.125146220716475,
-          "avg_save_rate": 0.817596855163747,
-          "median_save_rate": 0.7309637120761451,
-          "stddev_save_rate": 0.5914059726830133
+          "rer_skewness": 3.4667728672839084
         },
         "Mega": {
           "count": 5,
@@ -1061,16 +1281,7 @@
           "rer_stddev": 1.584440068170301,
           "n": 5,
           "valid": false,
-          "rer_skewness": 0.9445678189365873,
-          "viral_velocity_avg": 0.08643415524715115,
-          "viral_velocity_median": 0.03832352941176471,
-          "viral_velocity_p25": 0.015558139534883721,
-          "viral_velocity_p75": 0.09659090909090909,
-          "viral_velocity_stddev": 0.09684576152773458,
-          "viral_velocity_skewness": 1.7494391113181713,
-          "avg_save_rate": 0.5197399953896192,
-          "median_save_rate": 0.24832352941176472,
-          "stddev_save_rate": 0.5303201638165742
+          "rer_skewness": 0.9445678189365873
         }
       }
     },
@@ -1080,11 +1291,6 @@
         "videos_enrichment_failed": 0,
         "enrichment_failure_rate_pct": 0
       },
-      "efficiency_metrics": {
-        "avg_rer": 144.01242234971681,
-        "median_rer": 9.971014492753623,
-        "avg_svr": 0.8554171799203479
-      },
       "data_quality": {
         "validity_threshold_n": 10,
         "low_sample_metrics": [
@@ -1092,10 +1298,20 @@
             "metric": "incentive_throttle_ratio",
             "n": 6,
             "valid": false
+          },
+          {
+            "metric": "reveal.end",
+            "n": 7,
+            "valid": false
           }
         ],
         "overall_quality_score": 1,
-        "notes": "Sample size n=85."
+        "notes": "Analysis on n=85."
+      },
+      "efficiency_metrics": {
+        "avg_rer": 144.01242234971681,
+        "median_rer": 9.971014492753623,
+        "conversion_intent_score": 77.52941176470588
       },
       "battle_comparisons": {
         "voiceover": {
@@ -1106,7 +1322,8 @@
             "views_p75": 2550000,
             "views_stddev": 15216505.042358482,
             "n": 63,
-            "valid": true
+            "valid": true,
+            "views_skewness": 7.028336265478469
           },
           "without_voiceover": {
             "views_avg": 4798933.818181818,
@@ -1115,7 +1332,8 @@
             "views_p75": 4225000,
             "views_stddev": 12101081.140891347,
             "n": 22,
-            "valid": true
+            "valid": true,
+            "views_skewness": 4.089123834930371
           }
         },
         "face_presence": {
@@ -1126,7 +1344,8 @@
             "views_p75": 2425000,
             "views_stddev": 17022535.9311277,
             "n": 48,
-            "valid": true
+            "valid": true,
+            "views_skewness": 6.5767570989880255
           },
           "without_face": {
             "views_avg": 4376089.3513513515,
@@ -1135,7 +1354,74 @@
             "views_p75": 4500000,
             "views_stddev": 10273120.602535434,
             "n": 37,
-            "valid": true
+            "valid": true,
+            "views_skewness": 4.168158534202427
+          }
+        },
+        "honest_review_premium": {
+          "critical_balanced": {
+            "views_avg": 7788789.523809524,
+            "views_median": 1600000,
+            "views_p25": 230800,
+            "views_p75": 2900000,
+            "views_stddev": 25026637.784707654,
+            "n": 21,
+            "valid": true,
+            "views_skewness": 4.501891187865244
+          },
+          "raving_positive": {
+            "views_avg": 3275890.96875,
+            "views_median": 296100,
+            "views_p25": 81175,
+            "views_p75": 2525000,
+            "views_stddev": 8233577.928860013,
+            "n": 64,
+            "valid": true,
+            "views_skewness": 5.00307139723517
+          }
+        },
+        "pain_point_conversion": {
+          "with_pain_point": {
+            "views_avg": 2119321.8863636362,
+            "views_median": 378000,
+            "views_p25": 134150,
+            "views_p75": 2450000,
+            "views_stddev": 3358822.964229029,
+            "n": 44,
+            "valid": true,
+            "views_skewness": 1.9625506543572486
+          },
+          "without_pain_point": {
+            "views_avg": 6828571.682926829,
+            "views_median": 642400,
+            "views_p25": 52200,
+            "views_p75": 3100000,
+            "views_stddev": 20270498.31106974,
+            "n": 41,
+            "valid": true,
+            "views_skewness": 4.699894516334922
+          }
+        },
+        "sound_strategy": {
+          "voiceover_and_trending": {
+            "views_avg": 12837494.307692308,
+            "views_median": 692100,
+            "views_p25": 38800,
+            "views_p75": 8300000,
+            "views_stddev": 31332627.46811833,
+            "n": 13,
+            "valid": true,
+            "views_skewness": 3.3615548180371255
+          },
+          "voiceover_only": {
+            "views_avg": 2015152.64,
+            "views_median": 510750,
+            "views_p25": 102350,
+            "views_p75": 2375000,
+            "views_stddev": 3510552.1645875066,
+            "n": 50,
+            "valid": true,
+            "views_skewness": 3.038157726102102
           }
         }
       },
@@ -1144,8 +1430,7 @@
           "value": 0.8992035812881266,
           "n_organic": 23,
           "n_affiliate": 6,
-          "valid": false,
-          "validity_reason": "Sample size below threshold"
+          "valid": false
         },
         "niche_performance": [
           {
@@ -1156,8 +1441,7 @@
             "rer_p75": 1977.1319676036208,
             "rer_stddev": 0,
             "n": 1,
-            "valid": false,
-            "rer_skewness": 0
+            "valid": false
           },
           {
             "niche": "Parenting",
@@ -1167,8 +1451,7 @@
             "rer_p75": 1441.753171856978,
             "rer_stddev": 0,
             "n": 1,
-            "valid": false,
-            "rer_skewness": 0
+            "valid": false
           },
           {
             "niche": "Home",
@@ -1247,106 +1530,138 @@
             "valid": false,
             "rer_skewness": -0.22272234710967795
           }
+        ],
+        "product_reveal_efficiency": {
+          "hook_reveal": {
+            "views_avg": 6192486.03508772,
+            "views_median": 861900,
+            "views_p25": 173600,
+            "views_p75": 5000000,
+            "views_stddev": 17381884.288121194,
+            "n": 57,
+            "valid": true,
+            "views_skewness": 5.411548000418985
+          },
+          "mid_reveal": {
+            "views_avg": 743419.1666666666,
+            "views_median": 350150,
+            "views_p25": 102350,
+            "views_p75": 751350,
+            "views_stddev": 973911.7302579469,
+            "n": 18,
+            "valid": true,
+            "views_skewness": 1.7669772947144475
+          },
+          "end_reveal": {
+            "views_avg": 531793.2857142857,
+            "views_median": 52200,
+            "views_p25": 39600,
+            "views_p75": 244500,
+            "views_stddev": 1055782.6727323756,
+            "n": 7,
+            "valid": false,
+            "views_skewness": 2.5730773882983153
+          }
+        }
+      },
+      "seo_discoverability": {
+        "keyword_association_strength": [
+          {
+            "keyword": "Charlotte Tilbury",
+            "frequency": 1,
+            "avg_rer": 4.391891891891892,
+            "valid": false
+          },
+          {
+            "keyword": "cordless vacuum cleaner",
+            "frequency": 1,
+            "avg_rer": 2713.6150234741785,
+            "valid": false
+          },
+          {
+            "keyword": "vacuum cleaners",
+            "frequency": 1,
+            "avg_rer": 2713.6150234741785,
+            "valid": false
+          },
+          {
+            "keyword": "ASMR Tingles",
+            "frequency": 1,
+            "avg_rer": 159.6244131455399,
+            "valid": false
+          },
+          {
+            "keyword": "lip stain",
+            "frequency": 1,
+            "avg_rer": 20.37201062887511,
+            "valid": false
+          },
+          {
+            "keyword": "Huda Beauty",
+            "frequency": 1,
+            "avg_rer": 20.37201062887511,
+            "valid": false
+          },
+          {
+            "keyword": "huda beauty lip stain",
+            "frequency": 1,
+            "avg_rer": 20.37201062887511,
+            "valid": false
+          },
+          {
+            "keyword": "kylie cosmetics",
+            "frequency": 1,
+            "avg_rer": 1.8333333333333333,
+            "valid": false
+          },
+          {
+            "keyword": "Kylie Jenner",
+            "frequency": 1,
+            "avg_rer": 1.8333333333333333,
+            "valid": false
+          },
+          {
+            "keyword": "skims dress",
+            "frequency": 1,
+            "avg_rer": 8.200922603792927,
+            "valid": false
+          },
+          {
+            "keyword": "Skims Review",
+            "frequency": 1,
+            "avg_rer": 8.200922603792927,
+            "valid": false
+          },
+          {
+            "keyword": "Skims Haul",
+            "frequency": 1,
+            "avg_rer": 8.200922603792927,
+            "valid": false
+          },
+          {
+            "keyword": "choco mania pastries",
+            "frequency": 1,
+            "avg_rer": 41.11295681063123,
+            "valid": false
+          },
+          {
+            "keyword": "misophonia",
+            "frequency": 1,
+            "avg_rer": 41.11295681063123,
+            "valid": false
+          },
+          {
+            "keyword": "pastries",
+            "frequency": 1,
+            "avg_rer": 41.11295681063123,
+            "valid": false
+          }
         ]
       },
-      "hook_to_rer_impact": [
-        {
-          "hook": "Problem-Solution",
-          "rer_avg": 237.07662901173276,
-          "rer_median": 114.98973305954826,
-          "rer_p25": 84.87084870848709,
-          "rer_p75": 235.73573573573574,
-          "rer_stddev": 284.36479269289964,
-          "n": 13,
-          "valid": true,
-          "rer_skewness": 1.788778503132471,
-          "avg_svr": 0.7051730509832402,
-          "median_svr": 0.6350757205666829
-        },
-        {
-          "hook": "Other",
-          "rer_avg": 90.40855482428603,
-          "rer_median": 90.40855482428603,
-          "rer_p25": 67.63773748818863,
-          "rer_p75": 113.17937216038341,
-          "rer_stddev": 45.541634672194775,
-          "n": 2,
-          "valid": false,
-          "rer_skewness": 0,
-          "avg_svr": 1.0527372926355674,
-          "median_svr": 1.0527372926355674
-        },
-        {
-          "hook": "B-Roll-Product",
-          "rer_avg": 62.516880358005004,
-          "rer_median": 24.752380952380953,
-          "rer_p25": 16,
-          "rer_p75": 66.2739322533137,
-          "rer_stddev": 74.46815650040149,
-          "n": 5,
-          "valid": false,
-          "rer_skewness": 1.8036385383993976,
-          "avg_svr": 1.2640058687072706,
-          "median_svr": 0.6314496314496315
-        },
-        {
-          "hook": "POV",
-          "rer_avg": 300.56679244471223,
-          "rer_median": 21.524663677130047,
-          "rer_p25": 4.75306568416711,
-          "rer_p75": 74.71284606380223,
-          "rer_stddev": 703.5857964909795,
-          "n": 23,
-          "valid": true,
-          "rer_skewness": 2.6528499738898104,
-          "avg_svr": 0.8942883757368879,
-          "median_svr": 0.6947931034482758
-        },
-        {
-          "hook": "Text-Only",
-          "rer_avg": 14.083333333333334,
-          "rer_median": 14.083333333333334,
-          "rer_p25": 14.083333333333334,
-          "rer_p75": 14.083333333333334,
-          "rer_stddev": 0,
-          "n": 1,
-          "valid": false,
-          "rer_skewness": 0,
-          "avg_svr": 2.8796844181459567,
-          "median_svr": 2.8796844181459567
-        },
-        {
-          "hook": "Talking-Head",
-          "rer_avg": 32.881399132828825,
-          "rer_median": 4.958880569534798,
-          "rer_p25": 2.0466171617161715,
-          "rer_p75": 27.807150688886892,
-          "rer_stddev": 80.15999469996875,
-          "n": 31,
-          "valid": true,
-          "rer_skewness": 4.015835718017899,
-          "avg_svr": 0.733497010546445,
-          "median_svr": 0.7109322602280348
-        },
-        {
-          "hook": "ASMR-Unboxing",
-          "rer_avg": 71.92152784553994,
-          "rer_median": 3.5167578930667935,
-          "rer_p25": 0.37769272433790063,
-          "rer_p75": 9.406243812163952,
-          "rer_stddev": 160.52341590907778,
-          "n": 10,
-          "valid": true,
-          "rer_skewness": 2.7486611172729205,
-          "avg_svr": 0.893098231460576,
-          "median_svr": 0.8770299549833818
-        }
-      ],
       "duration_correlation": {
         "pearson_r": -0.1345756216444226,
         "sample_size": 85,
-        "statistical_significance": "Emerging",
-        "interpretation": "Weak linear relationship"
+        "statistical_significance": "High"
       },
       "by_creator_tier": {
         "Nano": {
@@ -1358,16 +1673,7 @@
           "rer_stddev": 502.3083014982213,
           "n": 20,
           "valid": true,
-          "rer_skewness": 2.6648333826870414,
-          "viral_velocity_avg": 0.4229414288360423,
-          "viral_velocity_median": 0.282949876064916,
-          "viral_velocity_p25": 0.1472523706623029,
-          "viral_velocity_p75": 0.632768785910098,
-          "viral_velocity_stddev": 0.398604567615283,
-          "viral_velocity_skewness": 2.0472413990357756,
-          "avg_save_rate": 0.7972442277665095,
-          "median_save_rate": 0.723451740448248,
-          "stddev_save_rate": 0.5709832960071395
+          "rer_skewness": 2.6648333826870414
         },
         "Micro": {
           "count": 36,
@@ -1378,16 +1684,7 @@
           "rer_stddev": 474.995296001448,
           "n": 36,
           "valid": true,
-          "rer_skewness": 4.60491010668533,
-          "viral_velocity_avg": 0.41338579473657167,
-          "viral_velocity_median": 0.32008659237958303,
-          "viral_velocity_p25": 0.14871513720197932,
-          "viral_velocity_p75": 0.6379962446351931,
-          "viral_velocity_stddev": 0.3140062681988575,
-          "viral_velocity_skewness": 1.1278701971951406,
-          "avg_save_rate": 0.9948350599333635,
-          "median_save_rate": 0.8520461876767333,
-          "stddev_save_rate": 0.8621509693967103
+          "rer_skewness": 4.60491010668533
         },
         "Macro": {
           "count": 19,
@@ -1398,16 +1695,7 @@
           "rer_stddev": 16.169943154449644,
           "n": 19,
           "valid": true,
-          "rer_skewness": 1.1040371845359451,
-          "viral_velocity_avg": 0.35999480757969876,
-          "viral_velocity_median": 0.3233593160673875,
-          "viral_velocity_p25": 0.11392455808080809,
-          "viral_velocity_p75": 0.4455849802371542,
-          "viral_velocity_stddev": 0.3344606432592057,
-          "viral_velocity_skewness": 2.0516699042134174,
-          "avg_save_rate": 0.8170516341734252,
-          "median_save_rate": 0.9248194444444444,
-          "stddev_save_rate": 0.4441026190041339
+          "rer_skewness": 1.1040371845359451
         },
         "Mega": {
           "count": 10,
@@ -1418,16 +1706,7 @@
           "rer_stddev": 24.87921323124743,
           "n": 10,
           "valid": true,
-          "rer_skewness": 2.960804389803855,
-          "viral_velocity_avg": 0.3014055542909463,
-          "viral_velocity_median": 0.25495145875251507,
-          "viral_velocity_p25": 0.12559806305915053,
-          "viral_velocity_p75": 0.41717338543809135,
-          "viral_velocity_stddev": 0.23263818837995945,
-          "viral_velocity_skewness": 1.3102102412915209,
-          "avg_save_rate": 0.542753253100319,
-          "median_save_rate": 0.5064418781404844,
-          "stddev_save_rate": 0.273272516653734
+          "rer_skewness": 2.960804389803855
         }
       }
     }
