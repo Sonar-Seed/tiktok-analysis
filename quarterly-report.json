@@ -1,11 +1,12 @@
 {
   "report_config": {
-    "generated_at": "2026-04-03T09:41:10.906Z",
+    "generated_at": "2026-04-03T09:46:25.357Z",
     "validity_threshold_n": 10,
     "outlier_exclusion_method": "winsorize_3sigma",
     "rer_outlier_cap_applied": true,
     "locale_filter": "en-only",
-    "niche_taxonomy_version": "1.2"
+    "niche_taxonomy_version": "1.2",
+    "incentive_throttle_definition": "Organic_Median_RER / Affiliate_Median_RER"
   },
   "time_series": [
     {
@@ -339,7 +340,7 @@
       },
       "deep_analysis": {
         "incentive_throttle_ratio": {
-          "value": 32.08685969494336,
+          "value": 0.0311654056990062,
           "n_organic": 62,
           "n_affiliate": 16,
           "organic_median_rer": 1.3805124223602485,
@@ -1103,7 +1104,7 @@
       },
       "deep_analysis": {
         "incentive_throttle_ratio": {
-          "value": 1.4548344470305579,
+          "value": 0.6873634330291574,
           "n_organic": 23,
           "n_affiliate": 9,
           "organic_median_rer": 8.929936305732484,
@@ -1877,7 +1878,7 @@
       },
       "deep_analysis": {
         "incentive_throttle_ratio": {
-          "value": 0.6573816816577827,
+          "value": 1.5211862878171534,
           "n_organic": 33,
           "n_affiliate": 6,
           "organic_median_rer": 7.586854460093897,
@@ -2635,7 +2636,7 @@
       },
       "deep_analysis": {
         "incentive_throttle_ratio": {
-          "value": 1.1120952149317296,
+          "value": 0.8992035812881266,
           "n_organic": 23,
           "n_affiliate": 6,
           "organic_median_rer": 5.162303664921466,
