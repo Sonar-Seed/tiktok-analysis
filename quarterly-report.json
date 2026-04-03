@@ -1,6 +1,6 @@
 {
   "report_config": {
-    "generated_at": "2026-04-03T09:33:13.120Z",
+    "generated_at": "2026-04-03T09:35:59.432Z",
     "validity_threshold_n": 10,
     "outlier_exclusion_method": "winsorize_3sigma",
     "rer_outlier_cap_applied": true,
