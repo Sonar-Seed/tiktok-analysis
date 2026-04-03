@@ -1,6 +1,6 @@
 {
   "report_config": {
-    "generated_at": "2026-04-03T15:19:42.721Z",
+    "generated_at": "2026-04-03T15:21:49.994Z",
     "validity_threshold_n": 10,
     "outlier_exclusion_method": "winsorize_3sigma",
     "rer_outlier_cap_applied": true,
@@ -218,22 +218,24 @@
         },
         "honest_review_premium": {
           "balanced": {
-            "views_avg": null,
-            "views_median": null,
-            "views_p25": null,
-            "views_p75": null,
-            "views_stddev": 0,
-            "n": 0,
-            "valid": false
+            "views_avg": 1064729.9090909092,
+            "views_median": 113950,
+            "views_p25": 3668,
+            "views_p75": 667950,
+            "views_stddev": 3189866.7095661517,
+            "n": 66,
+            "valid": true,
+            "views_skewness": 5.185824551393368
           },
           "pure_rave": {
-            "views_avg": null,
-            "views_median": null,
-            "views_p25": null,
-            "views_p75": null,
-            "views_stddev": 0,
-            "n": 0,
-            "valid": false
+            "views_avg": 1607685.7365591398,
+            "views_median": 144850,
+            "views_p25": 7110.25,
+            "views_p75": 1000000,
+            "views_stddev": 5800913.044099018,
+            "n": 186,
+            "valid": true,
+            "views_skewness": 6.93982263015825
           }
         },
         "pain_point_conversion": {
@@ -591,18 +593,8 @@
         "valid": true
       },
       "data_quality": {
-        "overall_quality_score": 0.8260869565217391,
+        "overall_quality_score": 0.9130434782608695,
         "low_sample_metrics": [
-          {
-            "metric": "honest.yes",
-            "n": 0,
-            "valid": false
-          },
-          {
-            "metric": "honest.no",
-            "n": 0,
-            "valid": false
-          },
           {
             "metric": "niche.DeskSetup",
             "n": 6,
@@ -766,22 +758,24 @@
         },
         "honest_review_premium": {
           "balanced": {
-            "views_avg": null,
-            "views_median": null,
-            "views_p25": null,
-            "views_p75": null,
-            "views_stddev": 0,
-            "n": 0,
-            "valid": false
+            "views_avg": 2669387.5555555555,
+            "views_median": 478700,
+            "views_p25": 107350,
+            "views_p75": 2350000,
+            "views_stddev": 4331644.65899379,
+            "n": 27,
+            "valid": true,
+            "views_skewness": 1.943740335794165
           },
           "pure_rave": {
-            "views_avg": null,
-            "views_median": null,
-            "views_p25": null,
-            "views_p75": null,
-            "views_stddev": 0,
-            "n": 0,
-            "valid": false
+            "views_avg": 2999540.5735294116,
+            "views_median": 385200,
+            "views_p25": 46650,
+            "views_p75": 2025000,
+            "views_stddev": 8601147.51707379,
+            "n": 68,
+            "valid": true,
+            "views_skewness": 5.826826263784204
           }
         },
         "pain_point_conversion": {
@@ -1033,18 +1027,8 @@
         "valid": true
       },
       "data_quality": {
-        "overall_quality_score": 0.7142857142857143,
+        "overall_quality_score": 0.8095238095238095,
         "low_sample_metrics": [
-          {
-            "metric": "honest.yes",
-            "n": 0,
-            "valid": false
-          },
-          {
-            "metric": "honest.no",
-            "n": 0,
-            "valid": false
-          },
           {
             "metric": "incentive_throttle_ratio",
             "n": 9,
@@ -1217,22 +1201,24 @@
         },
         "honest_review_premium": {
           "balanced": {
-            "views_avg": null,
-            "views_median": null,
-            "views_p25": null,
-            "views_p75": null,
-            "views_stddev": 0,
-            "n": 0,
-            "valid": false
+            "views_avg": 1926784.6153846155,
+            "views_median": 1100000,
+            "views_p25": 170000,
+            "views_p75": 2600000,
+            "views_stddev": 2484294.6632011,
+            "n": 13,
+            "valid": true,
+            "views_skewness": 1.6839043445235795
           },
           "pure_rave": {
-            "views_avg": null,
-            "views_median": null,
-            "views_p25": null,
-            "views_p75": null,
-            "views_stddev": 0,
-            "n": 0,
-            "valid": false
+            "views_avg": 2603561.186440678,
+            "views_median": 202800,
+            "views_p25": 16350,
+            "views_p75": 1450000,
+            "views_stddev": 9795476.156172872,
+            "n": 59,
+            "valid": true,
+            "views_skewness": 6.586809101645645
           }
         },
         "pain_point_conversion": {
@@ -1495,21 +1481,11 @@
         "valid": true
       },
       "data_quality": {
-        "overall_quality_score": 0.5909090909090909,
+        "overall_quality_score": 0.6818181818181818,
         "low_sample_metrics": [
           {
             "metric": "sound.mix",
             "n": 8,
-            "valid": false
-          },
-          {
-            "metric": "honest.yes",
-            "n": 0,
-            "valid": false
-          },
-          {
-            "metric": "honest.no",
-            "n": 0,
             "valid": false
           },
           {
@@ -1693,22 +1669,24 @@
         },
         "honest_review_premium": {
           "balanced": {
-            "views_avg": null,
-            "views_median": null,
-            "views_p25": null,
-            "views_p75": null,
-            "views_stddev": 0,
-            "n": 0,
-            "valid": false
+            "views_avg": 7788789.523809524,
+            "views_median": 1600000,
+            "views_p25": 230800,
+            "views_p75": 2900000,
+            "views_stddev": 25026637.784707654,
+            "n": 21,
+            "valid": true,
+            "views_skewness": 4.501891187865244
           },
           "pure_rave": {
-            "views_avg": null,
-            "views_median": null,
-            "views_p25": null,
-            "views_p75": null,
-            "views_stddev": 0,
-            "n": 0,
-            "valid": false
+            "views_avg": 3275890.96875,
+            "views_median": 296100,
+            "views_p25": 81175,
+            "views_p75": 2525000,
+            "views_stddev": 8233577.928860013,
+            "n": 64,
+            "valid": true,
+            "views_skewness": 5.00307139723517
           }
         },
         "pain_point_conversion": {
@@ -1990,18 +1968,8 @@
         "valid": true
       },
       "data_quality": {
-        "overall_quality_score": 0.5652173913043478,
+        "overall_quality_score": 0.6521739130434783,
         "low_sample_metrics": [
-          {
-            "metric": "honest.yes",
-            "n": 0,
-            "valid": false
-          },
-          {
-            "metric": "honest.no",
-            "n": 0,
-            "valid": false
-          },
           {
             "metric": "incentive_throttle_ratio",
             "n": 6,
