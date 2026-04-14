@@ -1,6 +1,6 @@
 {
   "report_config": {
-    "generated_at": "2026-04-14T07:24:57.559Z",
+    "generated_at": "2026-04-14T13:16:25.636Z",
     "validity_threshold_n": 10,
     "outlier_exclusion_method": "winsorize_3sigma",
     "rer_outlier_cap_applied": true,
@@ -240,24 +240,24 @@
         },
         "pain_point_conversion": {
           "with": {
-            "comments_avg": 390,
-            "comments_median": 83,
-            "comments_p25": 12,
-            "comments_p75": 233,
-            "comments_stddev": 1796.0253401765776,
+            "views_avg": 878418.7142857143,
+            "views_median": 106900,
+            "views_p25": 5446,
+            "views_p75": 730300,
+            "views_stddev": 1879950.2017525695,
             "n": 133,
             "valid": true,
-            "comments_skewness": 9.511931972060806
+            "views_skewness": 3.94528082754648
           },
           "without": {
-            "comments_avg": 1087.2231404958677,
-            "comments_median": 84,
-            "comments_p25": 13,
-            "comments_p75": 493,
-            "comments_stddev": 5192.266172689875,
+            "views_avg": 2224905.223140496,
+            "views_median": 186400,
+            "views_p25": 7075,
+            "views_p75": 1100000,
+            "views_stddev": 7369269.777531589,
             "n": 121,
             "valid": true,
-            "comments_skewness": 7.388470949244011
+            "views_skewness": 5.188109487829888
           }
         },
         "face_presence": {
@@ -2468,24 +2468,24 @@
         },
         "pain_point_conversion": {
           "with": {
-            "comments_avg": 950.5098039215686,
-            "comments_median": 148,
-            "comments_p25": 46.5,
-            "comments_p75": 430.5,
-            "comments_stddev": 2587.436299282566,
+            "views_avg": 2553392.862745098,
+            "views_median": 458500,
+            "views_p25": 61000,
+            "views_p75": 2450000,
+            "views_stddev": 4917357.811048036,
             "n": 51,
             "valid": true,
-            "comments_skewness": 4.091295564110909
+            "views_skewness": 2.854802227730929
           },
           "without": {
-            "comments_avg": 1411.787234042553,
-            "comments_median": 146,
-            "comments_p25": 51.5,
-            "comments_p75": 723,
-            "comments_stddev": 5481.018448365814,
+            "views_avg": 3109203.7021276597,
+            "views_median": 301300,
+            "views_p25": 55650,
+            "views_p75": 1400000,
+            "views_stddev": 9588797.619848447,
             "n": 47,
             "valid": true,
-            "comments_skewness": 6.351709784450659
+            "views_skewness": 5.820279259339662
           }
         },
         "face_presence": {
@@ -4344,24 +4344,24 @@
         },
         "pain_point_conversion": {
           "with": {
-            "comments_avg": 1484.642857142857,
-            "comments_median": 290.5,
-            "comments_p25": 40.25,
-            "comments_p75": 712,
-            "comments_stddev": 3545.456017559515,
+            "views_avg": 4867097.785714285,
+            "views_median": 459150,
+            "views_p25": 37925,
+            "views_p75": 2450000,
+            "views_stddev": 13862534.739238238,
             "n": 28,
             "valid": true,
-            "comments_skewness": 3.965377509833388
+            "views_skewness": 4.529221909706913
           },
           "without": {
-            "comments_avg": 696.6923076923077,
-            "comments_median": 164.5,
-            "comments_p25": 33,
-            "comments_p75": 478.25,
-            "comments_stddev": 1712.8576497778113,
+            "views_avg": 1260462.0384615385,
+            "views_median": 342200,
+            "views_p25": 51975,
+            "views_p75": 1575000,
+            "views_stddev": 2371731.2922956073,
             "n": 52,
             "valid": true,
-            "comments_skewness": 4.422648567154798
+            "views_skewness": 3.6891242385471847
           }
         },
         "face_presence": {
@@ -6076,24 +6076,24 @@
         },
         "pain_point_conversion": {
           "with": {
-            "comments_avg": 1293.3863636363637,
-            "comments_median": 303.5,
-            "comments_p25": 89.75,
-            "comments_p75": 1219.5,
-            "comments_stddev": 3060.33868606898,
+            "views_avg": 2119321.8863636362,
+            "views_median": 378000,
+            "views_p25": 134150,
+            "views_p75": 2450000,
+            "views_stddev": 3358822.964229029,
             "n": 44,
             "valid": true,
-            "comments_skewness": 5.109634794159936
+            "views_skewness": 1.9625506543572486
           },
           "without": {
-            "comments_avg": 1543.0487804878048,
-            "comments_median": 413,
-            "comments_p25": 56,
-            "comments_p75": 1491,
-            "comments_stddev": 4208.974708308597,
+            "views_avg": 6828571.682926829,
+            "views_median": 642400,
+            "views_p25": 52200,
+            "views_p75": 3100000,
+            "views_stddev": 20270498.31106974,
             "n": 41,
             "valid": true,
-            "comments_skewness": 5.389203617894092
+            "views_skewness": 4.699894516334922
           }
         },
         "face_presence": {
